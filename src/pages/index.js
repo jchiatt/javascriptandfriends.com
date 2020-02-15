@@ -26,10 +26,13 @@ const Root = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <MainBanner>
-        <Flex flexDirection="row" alignItems="center">
+        <Flex flexDirection="column" alignItems="start">
           <GatsbyLink to="speakers" color="white">
             See speakers
           </GatsbyLink>
+          <Link href="https://www.dropbox.com/sh/1yzx0npuyht3f5f/AAC0SdlrGUeDTJ9I7dNeAvLxa?dl=0" mt={20}>
+            See 2019 Photos
+          </Link>
         </Flex>
       </MainBanner>
       <Alternate pb={100}>
