@@ -1,6 +1,7 @@
 import NashlieSephus from "./images/2020-speakers/nashlie-sephus.jpg";
-import TejasKumar from "./images/2020-speakers/tejas-kumar.jpg";
 import JayPhelps from "./images/2020-speakers/jay-phelps.jpg";
+import BrianHolt from "./images/2020-speakers/brian-holt.jpg";
+import ShawnWang from "./images/2020-speakers/shawn-wang.jpg";
 import MichaelLiendo from "./images/2020-speakers/michael-liendo.jpg";
 import KaylaSween from "./images/2020-speakers/kayla-sween.jpg";
 import TylerClark from "./images/2020-speakers/tyler-clark.png";
@@ -39,6 +40,34 @@ export default [
       In this talk, we'll first briefly cover what RxJS is, then focus on the various patterns for testing your RxJS code, including using the TestScheduler and the syntax of ASCII marble diagrams.`
     },
     twitter: "_jayphelps",
+  },
+  {
+    name: "Shawn \"swyx\" Wang",
+    bio:
+      "swyx is an Infinite Builder working on Developer Experience at Netlify. In his free time he helps people Learn in Public at Egghead.io and /r/reactjs!",
+    Image: ShawnWang,
+    talk: {
+      title: "Svelte and the Great Space Elevator",
+      description: `Modern JS frameworks have run into a quandary - what we write is what we ship. Despite our best efforts at minifying and treeshaking, we cannot fight the fact that adding features means adding JS bundle size. This means we are often trading off user experience against developer experience for every fatiguing decision we make.
+
+      But it doesn't have to be this way: as Tom Dale predicted, Compilers are the new Frameworks. Svelte is an exciting, newer JavaScript framework that was designed from the ground up with compilation and speed. In this talk, we'll look under its hood to understand how it works, so you know when and why you'd want to use it in future. Don't worry, it isn't Rocket Science!`
+    },
+    twitter: "swyx",
+    company: "Netlify"
+  },
+  {
+    name: "Brian Holt",
+    bio:
+      "Brian is currently working as a senior program manager on Azure at Microsoft and he's all about developers, developers, developers. Previously he was a JavaScript engineer at Netflix, LinkedIn and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog. Brian is currently a resident of Seattle, WA.",
+    Image: BrianHolt,
+    talk: {
+      title: "Chasing Whales of the Command Line: The What, How, and Why of Containers 🐳",
+      description: `I’m just a humble JavaScript developer. I got my start assembling the finest of forms and the craftiest cascades of CSS you ever did see. When I started to hear folks chirp about these “containers” of “Linux” I just went on my merry way, diving head first into yet-another-JavaScript-framework. However this idea stuck with me: the idea that I could use little self-contained environments to accomplish tasks and then throw them away. I begin to question, ponder, and obsess after this proverbial whale, a Moby Dick of the command line. You too may wonder if I call myself Ishamel, but in the end I too got my whale. 🐳
+
+      Turns out containers are useful for everyone, from the designing of shimmering interfaces to the dredges of the data center, and I think you’ll benefit too from know how it all works. As with all things though, I’m deadly curious as to what’s in the belly of the whale (oh no I’m mixing whale metaphors now), what Docker actually does for me. I believe that the more you understand your tools, the more embrace what they do for you. We’ll craft a container from hand to learn what Docker does for you and then see what we can take from that to make Docker even more useful to us. Don’t worry if you don’t know Docker yet either: we’ll harpoon that topic too.`
+    },
+    twitter: "holtbt",
+    company: "Microsoft"
   },
   {
     name: "Michael Liendo",

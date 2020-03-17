@@ -49,7 +49,7 @@ const Root = () => (
           justifyContent: "center"
         }}
       >
-        {speakerData.slice(0, 3).map(speaker => {
+        {speakerData.slice(0, 6).map(speaker => {
           return (
             <Speaker
               name={speaker.name}
