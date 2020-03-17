@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   siteMetadata: {
     title: "MagnoliaJS",
-    description: "April 17-18 - Mississippi's first-ever developer conference.",
+    description: "April 15-17 - FULLY REMOTE",
     author: "MagnoliaJS Conference"
   },
   plugins: [

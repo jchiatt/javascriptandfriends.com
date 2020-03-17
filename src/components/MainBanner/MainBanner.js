@@ -18,7 +18,7 @@ function MainBanner({ children }) {
             MagnoliaJS Conference
           </Heading>
           <Text color="highlight" my={30} textAlign={["center", "left"]}>
-            Jackson, Mississippi<br />April 15-16, 2020
+            FULLY REMOTE<br />April 15-17, 2020
           </Text>
 
           {children}

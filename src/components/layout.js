@@ -39,7 +39,7 @@ const Layout = ({ children, hideHeading = false }) => (
     render={data => (
       <>
         <Helmet>
-          <title>MagnoliaJS Conference - April 15-16, 2020</title>
+          <title>MagnoliaJS Conference - April 15-17, 2020</title>
         </Helmet>
         <ThemeProvider theme={theme}>
           <>
