@@ -8,6 +8,7 @@ import TylerClark from "./images/2020-speakers/tyler-clark.png";
 import ChrisDemars from "./images/2020-speakers/chris-demars.jpg";
 import NaderDabit from "./images/2020-speakers/nader-dabit.jpg";
 import JustinSamuels from "./images/2020-speakers/justin-samuels.jpg";
+import DomitriusClark from "./images/2020-speakers/domitrius-clark.jpg";
 import ChrisBall from "./images/2020-speakers/chris-ball.jpg";
 
 export default [
@@ -158,6 +159,18 @@ export default [
     },
     twitter: "ThugDebugger",
     company: "MailChimp"
+  },
+  {
+    name: "Domitrius Clark",
+    bio:
+      "Developer Advocate at Cloudinary, Organizer of Reactadelphia, and Egghead instructor. I build to learn and love to teach. Esports nerd on the weekends.",
+    Image: DomitriusClark,
+    talk: {
+      title: " Handling Data with React Query",
+      description: ``
+    },
+    twitter: "domitriusclark",
+    company: "Cloudinary"
   },
   {
     name: "Chris Ball",
