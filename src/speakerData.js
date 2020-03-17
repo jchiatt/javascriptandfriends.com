@@ -25,19 +25,6 @@ export default [
     company: " Amazon / The Bean Path"
   },
   {
-    name: "Tejas Kumar",
-    bio:
-      "An award-winning web developer, Tejas has been building web experience over the past 10 years. Today, Tejas speaks to and encourages developers at events worldwide.",
-    Image: TejasKumar,
-    talk: {
-      title: "Learning React By Taking it Apart",
-      description:
-        "We work with React often, but its inner workings are a mystery to us. This talk looks at some key mechanisms that make React work under the hood. Specifically: the virtual DOM, Hooks, and Concurrent Mode."
-    },
-    twitter: "TejasKumar_",
-    company: "G2i"
-  },
-  {
     name: "Jay Phelps",
     bio: `Jay is a Reactive Programming nut, compiler/language design enthusiast, and previously an engineer at Netflix.
 
