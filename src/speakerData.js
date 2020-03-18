@@ -1,6 +1,7 @@
 import NashlieSephus from "./images/2020-speakers/nashlie-sephus.jpg";
 import JayPhelps from "./images/2020-speakers/jay-phelps.jpg";
 import BrianHolt from "./images/2020-speakers/brian-holt.jpg";
+import KenWheeler from "./images/2020-speakers/ken-wheeler.jpg";
 import ShawnWang from "./images/2020-speakers/shawn-wang.jpg";
 import MichaelLiendo from "./images/2020-speakers/michael-liendo.jpg";
 import KaylaSween from "./images/2020-speakers/kayla-sween.jpg";
@@ -41,6 +42,16 @@ export default [
       In this talk, we'll first briefly cover what RxJS is, then focus on the various patterns for testing your RxJS code, including using the TestScheduler and the syntax of ASCII marble diagrams.`
     },
     twitter: "_jayphelps",
+  },
+  {
+    name: "Ken Wheeler",
+    bio: `DAT BOI`,
+    Image: KenWheeler,
+    talk: {
+      title: "Canvas: The Final Escape Hatch",
+      description: ``
+    },
+    twitter: "ken_wheeler",
   },
   {
     name: "Shawn \"swyx\" Wang",
