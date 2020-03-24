@@ -3,6 +3,7 @@ import JayPhelps from "./images/2020-speakers/jay-phelps.jpg";
 import BrianHolt from "./images/2020-speakers/brian-holt.jpg";
 import KenWheeler from "./images/2020-speakers/ken-wheeler.jpg";
 import ShawnWang from "./images/2020-speakers/shawn-wang.jpg";
+import GantLaborde from "./images/2020-speakers/gant-laborde.jpg";
 import MichaelLiendo from "./images/2020-speakers/michael-liendo.jpg";
 import KaylaSween from "./images/2020-speakers/kayla-sween.jpg";
 import TylerClark from "./images/2020-speakers/tyler-clark.png";
@@ -92,6 +93,18 @@ export default [
     },
     twitter: "mtliendo",
     company: "John Deere"
+  },
+  {
+    name: "Gant Laborde",
+    bio:
+      "Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is an “open sourcerer”, team leader, and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at http://gantlaborde.com/",
+    Image: GantLaborde,
+    talk: {
+      title: "Adventures of Machine Learning in JavaScript",
+      description: ``
+    },
+    twitter: "GantLaborde",
+    company: "Infinite Red"
   },
   {
     name: "Kayla Sween",
