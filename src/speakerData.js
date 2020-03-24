@@ -35,9 +35,7 @@ export default [
     Image: JayPhelps,
     talk: {
       title: "Testing Complex RxJS Async Code Using Marble Diagrams",
-      description: `We work with React often, but its inner workings are a mystery to us. This talk looks at some key mechanisms that make React work under the hood. Specifically: the virtual DOM, Hooks, and Concurrent Mode.
-
-      Testing complex async code can be challenging. But if we're using RxJS, there's a lesser-known feature we can use to make things much easier on us: the TestScheduler. Together, we can deterministically virtualize time using a declarative ASCII marble diagram.
+      description: `Testing complex async code can be challenging. But if we're using RxJS, there's a lesser-known feature we can use to make things much easier on us: the TestScheduler. Together, we can deterministically virtualize time using a declarative ASCII marble diagram.
       
       In this talk, we'll first briefly cover what RxJS is, then focus on the various patterns for testing your RxJS code, including using the TestScheduler and the syntax of ASCII marble diagrams.`
     },
