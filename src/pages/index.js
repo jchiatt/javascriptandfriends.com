@@ -115,7 +115,7 @@ const Root = () => (
             launching point for greater things for the tech in Mississippi.
           </Text>
           <Text pt={10} pb={30}>
-            We are aiming to bring together around 250 web developers and
+            We are aiming to bring together around 500 web developers and
             friends to learn new skills and concepts and to network and develop
             new relationships.
           </Text>
