@@ -12,6 +12,7 @@ import NaderDabit from "./images/2020-speakers/nader-dabit.jpg";
 import JustinSamuels from "./images/2020-speakers/justin-samuels.jpg";
 import DomitriusClark from "./images/2020-speakers/domitrius-clark.jpg";
 import ChrisBall from "./images/2020-speakers/chris-ball.jpg";
+import SuphatraRufo from "./images/2020-speakers/suphatra-rufo.jpg";
 
 export default [
   {
@@ -207,5 +208,17 @@ export default [
     },
     twitter: "cball_",
     company: "Echobind"
-  }
+  },
+  {
+    name: "Suphatra Rufo",
+    bio:
+      "Suphatra Rufo is a Principal Product Marketing Manager at Couchbase. Her tech background is wide and storied: she has worked with celebrities like Selena Gomez to advocate for girls to learn how to code, and worked on TEALS, a program that places industry engineers in high school classrooms to teach computer science. She led the effort to create a nonprofit SKU for Office 365 and Azure and bring cloud computing as an upsell to the social sector to 93+ markets and realize a new revenue stream for Microsoft. She was on the original engineering team of Microsoft Teams, and saw the product from Preview to GA to v2. Most recently, she led the developer advocacy and customer storytelling efforts for the $6 billion database portfolio at Amazon Web Services. Today, she heads up solutions marketing at Couchbase, a late-stage VC-backed cloud database startup in Silicon Valley. Her industry recognition includes a Silver Lion from Cannes and top honors from Ragan Communications and PR Weekly. She has a Masters from Johns Hopkins University and volunteer teaches computer science at her local elementary schools. She lives on an island off of Seattle with her husband and two sons.",
+    Image: SuphatraRufo,
+    talk: {
+      title: "Which Database? How to Choose the Best Place for your JSON Documents",
+      description: `Document databases work best for scenarios where you need a flexible schema, your data is in XML or JSON format, you have a balanced read to write ratio, require high read performance, and want to use indexes for performance improvements. In this session, you'll learn about different databases (MongoDB, DynamoDB and Couchbase) and how to choose the best one for you.`
+    },
+    twitter: "skprufo",
+    company: "Couchbase"
+  },
 ];
