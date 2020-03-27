@@ -51,7 +51,7 @@ export default [
     Image: KenWheeler,
     talk: {
       title: "Canvas: The Final Escape Hatch",
-      description: ``
+      description: `This talk will explore the benefits and applications of the Canvas API. If your app requires rich visualizations, or above average rendering performance, Canvas is a superpower. I’ll be making a case for use, explaining drawbacks and caveats, and showing examples of how it can be used for everything from charts to games.`
     },
     twitter: "ken_wheeler",
   },
