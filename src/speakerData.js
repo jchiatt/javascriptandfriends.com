@@ -216,7 +216,7 @@ export default [
     Image: DomitriusClark,
     talk: {
       title: " Handling Data with React Query",
-      description: ``
+      description: `A constant hot topic in the world of React centers around how we should interact with data. Since the release of hooks, this topic has blown up further with newer and simpler ways to fetch, cache, and update asynchronous data. React Query is a tool that has completely answered that question for me. Join me as we dive into the strengths of it's developer experience and see multuple examples of it's hooks at work.`
     },
     twitter: "domitriusclark",
     company: "Cloudinary"
