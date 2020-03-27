@@ -49,9 +49,10 @@ const Root = () => (
           justifyContent: "center"
         }}
       >
-        {speakerData.slice(0, 6).map(speaker => {
+        {speakerData.map(speaker => {
           return (
             <Speaker
+              key={speaker.name}
               name={speaker.name}
               Image={speaker.Image}
               talk={{
@@ -65,9 +66,9 @@ const Root = () => (
           );
         })}
       </article>
-      <Text pt={10} pb={30} textAlign="center">
+      {/* <Text pt={10} pb={30} textAlign="center">
         <Link href="/speakers">See all speakers</Link>
-      </Text>
+      </Text> */}
       {/* <Alternate pb={100}>
         <Heading color="mainBackground" size={2} textAlign="center">
           Speakers
