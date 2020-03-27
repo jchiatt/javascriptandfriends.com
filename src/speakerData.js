@@ -13,6 +13,8 @@ import JustinSamuels from "./images/2020-speakers/justin-samuels.jpg";
 import DomitriusClark from "./images/2020-speakers/domitrius-clark.jpg";
 import ChrisBall from "./images/2020-speakers/chris-ball.jpg";
 import SuphatraRufo from "./images/2020-speakers/suphatra-rufo.jpg";
+import ScottTolinksi from "./images/2020-speakers/scott-tolinski.jpg";
+import SiaKaramalegos from "./images/2020-speakers/sia-karamalegos.gif";
 
 export default [
   {
@@ -82,6 +84,18 @@ export default [
     company: "Microsoft"
   },
   {
+    name: "Scott Tolinkski",
+    bio:
+      "Web Developer | Creator of @leveluptuts | Co-host of Syntax.fm | Father of 2 | Bboy | Robotops Crew | Youtuber | Tea Drinker | Tutorial Marker | Fan of physical activity | Former Music Major | Denverite | Michigander | Shaw Brothers Kung Fu Film Watcher | Handstander | Stretching enthusiast",
+    Image: ScottTolinksi,
+    talk: {
+      title: "Building Your Own Design System with CSS Variables",
+      description: `You probably don't need a CSS framework. While CSS Frameworks are wonderful and certainly have their place in the development landscape, they are often overused in place of a custom solution. In this talk, we'll look at how you can abandon the bloat and overhead of a CSS framework and quickly build a robust design system of components tuned to your needs using CSS variables.`
+    },
+    twitter: "stolinski",
+    company: "Level Up Tutorials"
+  },
+  {
     name: "Michael Liendo",
     bio:
       "UX Engineer at John Deere. When not teaching frontend concepts, I can be found dabbling in serverless stacks or playing ultimate frisbee. A Dad joke connoisseur who finds bananas appealing.",
@@ -102,10 +116,22 @@ export default [
     Image: GantLaborde,
     talk: {
       title: "Adventures of Machine Learning in JavaScript",
-      description: ``
+      description: `More and more we hear terms like "Machine Learning" and "AI", but are those just terms for Fortune 500 companies and their SkyNet labs? Nope! It's cool stuff that's coming our way, and we can access it in JavaScript in the browser! Let's explore and make some cool stuff in web pages!`
     },
     twitter: "GantLaborde",
     company: "Infinite Red"
+  },
+  {
+    name: "Sia Karamalegos",
+    bio:
+      "Sia Karamalegos is a developer, international conference speaker, and writer. She is a Google Developer Expert in Web Technologies and a Women Techmakers ambassador. She co-organizes GDG New Orleans and its marquee event, DevFest New Orleans. She is the founder and lead developer for Clio + Calliope Web Development and was recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana.",
+    Image: SiaKaramalegos,
+    talk: {
+      title: "Modern JavaScript for Modern Browsers",
+      description: `Web performance matters. From SEO to bottom-line revenue impacts, performance can make or break your app. However, fixing performance feels like a quagmire of expert-level topics. What if I told you JavaScript bundle sizes could be cut up to 50% by doing one thing only? Nearly 90% of web traffic runs on modern browsers, but we’re transpiling all of our JavaScript to ES5. That’s expensive. In this talk, we’ll learn about differential serving, or serving both modern bundles and legacy bundles using webpack. This talk is framework agnostic, and best if you have at least a basic understanding of JavaScript.`
+    },
+    twitter: "TheGreenGeek",
+    company: "Clio & Calliope"
   },
   {
     name: "Kayla Sween",
