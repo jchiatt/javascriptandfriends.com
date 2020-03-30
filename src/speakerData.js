@@ -29,7 +29,7 @@ export default [
       description:
         "A huge population of people are unaware of technologies that could benefit them, too intimidated to use technology, or have no one to show them how to use it. Yet, there are many avenues to break into tech. Through her personal journey of growing up in Mississippi, being CTO of a tech startup (Partpic) acquired by Amazon, and leading tech teams in corporate America, Dr. Nashlie Sephus encourages individuals of various ethnicities, backgrounds, and ages to be confident in embracing technology in their everyday lives. She embodies this message through nonprofit, The Bean Path, and discusses how to get free tech help."
     },
-    twitter: "nashlie_s",
+    twitter: "phenomenashlie",
     company: " Amazon / The Bean Path"
   },
   {
