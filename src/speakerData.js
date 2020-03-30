@@ -15,6 +15,7 @@ import ChrisBall from "./images/2020-speakers/chris-ball.jpg";
 import SuphatraRufo from "./images/2020-speakers/suphatra-rufo.jpg";
 import ScottTolinksi from "./images/2020-speakers/scott-tolinski.jpg";
 import SiaKaramalegos from "./images/2020-speakers/sia-karamalegos.gif";
+import JasonLengstorf from "./images/2020-speakers/jason-lengstorf.jpg";
 
 export default [
   {
@@ -132,6 +133,26 @@ export default [
     },
     twitter: "TheGreenGeek",
     company: "Clio & Calliope"
+  },
+  {
+    name: "Jason Lengstorf",
+    bio:
+      `Jason Lengstorf is a principal developer experience engineer at Netlify and the host of Learn With Jason, a live-streamed video show where he pairs with people in the community to learn something new.
+
+      Jason has worked as the head of developer relations at Gatsby, a software architect at IBM, as a consultant for companies including PlayStation and Intel, and as an entrepreneur who grew and sold a design agency. Along the way, he’s written several books and dozens of tutorials about development, process and system design, and work-life balance. He uses his eclectic 15+ years of experience to offer a unique, cross-functional approach to solving complex problems.
+      
+      Building better careers by first focusing on building better lives is one of Jason’s driving principles, which he writes about at lengstorf.com. He focuses on work-life balance, efficiency, processes, and productivity to help people get more done in less time — so they can spend more time on the things that matter most.
+      
+      He lives in Portland, Oregon, where he experiments on human test subjects with his smash burger and cocktail recipes.`,
+    Image: JasonLengstorf,
+    talk: {
+      title: "Create Dynamic Web Apps With Serverless and the Jamstack",
+      description: `For web developers, creating servers is one of the biggest challenges of creating great web experiences. It's easy to get lost in the world of DevOps: managing containers, scalability, caching, uptime, security — it's A Lot™.
+
+      In this talk, Jason Lengstorf teaches us how to get the outcome of a server — powerful, dynamic apps — without having to actually build or manage servers by using serverless functions. You'll learn how to handle user input like form submissions, store and retrieve data from databases, and more!`
+    },
+    twitter: "jlengstorf",
+    company: "Netlify"
   },
   {
     name: "Kayla Sween",
