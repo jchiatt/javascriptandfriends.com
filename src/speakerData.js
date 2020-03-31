@@ -16,6 +16,7 @@ import SuphatraRufo from "./images/2020-speakers/suphatra-rufo.jpg";
 import ScottTolinksi from "./images/2020-speakers/scott-tolinski.jpg";
 import SiaKaramalegos from "./images/2020-speakers/sia-karamalegos.gif";
 import JasonLengstorf from "./images/2020-speakers/jason-lengstorf.jpg";
+import ChanceStrickland from "./images/2020-speakers/chance-strickland.jpg";
 
 export default [
   {
@@ -267,5 +268,20 @@ export default [
     },
     twitter: "skprufo",
     company: "Couchbase"
+  },
+  {
+    name: "Chance Strickland",
+    bio:
+      `Chance is a front-end engineer and OSS maintainer of Reach UI, an accessibility-first component library for React. He is also a freelance developer building everything from landing pages to enterprise-grade web applications.
+
+      When he isn’t slinging code, Chance enjoys running, traveling, bouldering, playing drums, and walking his dog.`,
+    Image: ChanceStrickland,
+    talk: {
+      title: "Thar Be Dragons: Rebuilding Native UIs on the Web",
+      description: `How many times have you been asked to change the background color of the popover in a select menu? What about hiding or re-styling the inner parts of an HTML audio player? What if your marketing team doesn’t like that the controls in a date input don’t look like the buttons in your design system?
+
+      Before you roll your own custom version of a native UI component, it’s important to understand the full scope of the path you’re about to take. In this talk, Chance will walk through the complexity and nuance in native UI that we often take for granted. He’ll talk about the trade-offs we make in this process and how users will be impacted along the way.`
+    },
+    twitter: "chancethedev",
   },
 ];
