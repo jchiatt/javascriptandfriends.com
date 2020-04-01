@@ -17,6 +17,7 @@ import ScottTolinksi from "./images/2020-speakers/scott-tolinski.jpg";
 import SiaKaramalegos from "./images/2020-speakers/sia-karamalegos.gif";
 import JasonLengstorf from "./images/2020-speakers/jason-lengstorf.jpg";
 import ChanceStrickland from "./images/2020-speakers/chance-strickland.jpg";
+import DebbieOBrien from "./images/2020-speakers/debbie-obrien.jpg";
 
 export default [
   {
@@ -283,5 +284,20 @@ export default [
       Before you roll your own custom version of a native UI component, it’s important to understand the full scope of the path you’re about to take. In this talk, Chance will walk through the complexity and nuance in native UI that we often take for granted. He’ll talk about the trade-offs we make in this process and how users will be impacted along the way.`
     },
     twitter: "chancethedev",
+  },
+  {
+    name: "Debbie O'Brien",
+    bio:
+      `Debbie O’Brien is Head of Learning and Developer Advocate at NuxtJS, the progressive VueJS framework. Debbie has over 10 years experience in Frontend development. She has worked as a Tech Lead and consultant for many important clients with varios technologies and often with a strong focus on performance. She has lead teams both in house and remotely as well as giving workshops and training. She has many years of experience as a mentor for online learning platforms, Treehouse and OpenClassrooms. Debbie is a Microsoft Most Valuable Professional in developer technologies, Google Developer Expert in web technologies and Cloudinary Media Developer Expert.
+
+      Debbie has a special love for JavaScript frameworks especially Vue.js and Nuxt.js and improving performance with webpack and of course the JAMstack. She holds a Frontend and FullStack Tech Degree and is Microsoft certified. Debbie is an international speaker, who has spoken at many meet-ups and conferences worldwide on many continents including Antarctica. She is also the organiser of MallorcaJS and VueSpain and is an open source contributor. Debbie is a teacher at Vue School and has created the Vue Router and Vue Internationalisation course and is also a writer for Ultimate Courses.
+
+      Debbie is Irish but lives and works in Mallorca, Spain and when she is not writing code and studying new technologies she can often be found doing all sorts of sports from running, cycling, crossfit and skiing and of course Taekwondo where she is a 4th degree black belt.`,
+    Image: DebbieOBrien,
+    talk: {
+      title: "Static generated sites === great performance. What are you waiting for?",
+      description: `Statically generated sites are the future. Seriously. With frameworks like Nuxt we can build really cool sites that look and feel like a single page application but are actually static generated. That means no need for a server but most importantly performance is amazing. Everything is generated at build time. You will learn how static sites work and how to ensure your site is extremely performant.`
+    },
+    twitter: "debs_obrien",
   },
 ];
