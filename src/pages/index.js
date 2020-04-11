@@ -66,44 +66,41 @@ const Root = () => (
           );
         })}
       </article>
-      {/* <Text pt={10} pb={30} textAlign="center">
-        <Link href="/speakers">See all speakers</Link>
-      </Text> */}
-      {/* <Alternate pb={100}>
-        <Heading color="mainBackground" size={2} textAlign="center">
-          Speakers
-        </Heading>
-        <Flex
-          flexDirection="row"
-          flexWrap="wrap"
-          alignItems="center"
-          justifyContent="center"
-          style={{ padding: "2rem", width: "" }}
-        >
-          <Speaker
-            name="Jay Phelps"
-            Image={JayPhelpsImage}
-            talk={{
-              title: "The WebAssembly Revolution Has Begun",
-              description: "WebAssembly (aka wasm) is a new, standardized compilation target for the web, shipping in all modern browsers. But since it's so low level it can be difficult to see how it will revolutionize the next generation of web apps–and definitely not just games and C++. This is a game changer for all web developers. In this talk Jay will reveal what it is, how you can use it today, and the incredible opportunities it will unlock in the years to come."
-            }}
-            twitter="_jayphelps"
-            bio="Reactive programming nut and compiler enthusiast. Previously a Senior Software Engineer at Netflix. Lover of all things open source, his contributions span numerous ecosystems and active in the community as a Google Developer Expert for Web Technologies and W3C WebAssembly Community Group member. He previously volunteered as an RxJS core team member, and is the author of core-decorators, git-blame-someone-else, and co-author of redux-observable."
-          />
-        </Flex>
-        
-      </Alternate> */}
-      {/* <Alternate pb={100} style={{overflowX: 'scroll'}}>
+      <Alternate pb={100} style={{overflowX: 'scroll'}}>
+        <Text pt={10} pb={30} style={{ fontWeight: 700 }}>ALL TIMES ARE IN US/CENTRAL.</Text>
+        <Text pt={10} pb={30}>All talks will happen on our main Zoom Webinar link. Other events, such as Virtual Sponsor Booths, Q&A's, Virtual Lunch Tables, etc. will have their own respective Zoom meeting links.</Text>
+        <Text pt={10} pb={30}>We will have a Watercooler running at all times for anyone who wants to pop in and get to know others. Please adhere to our Code of Conduct.</Text>
         <Heading color="mainBackground" size={2}>
-          Schedule - April 15 (Workshop Day)
+          Schedule - April 16 (Day 1)
         </Heading>
-        <Text pt={10} pb={30}>Workshops run concurrently and their durations/end times will be determined by the instructors.</Text>
-        <Schedule day="workshop" />
+        <Heading color="mainBackground" size={3}>
+          Virtual Sponsor Booths
+        </Heading>
+        <Schedule day="sponsors-one" />
+        <Heading color="mainBackground" size={3}>
+          Talks
+        </Heading>
+        <Schedule day="one" />
+        {/* <Heading color="mainBackground" size={3}>
+          Speaker Q&A
+        </Heading>
+        <Schedule day="qa-one" /> */}
         <Heading color="alternateHeading" size={2}>
-          Schedule - April 16 (Conference Day)
+          Schedule - April 17 (Day 2)
         </Heading>
-        <Schedule day="conference" />
-      </Alternate> */}
+        <Heading color="alternateHeading" size={3}>
+          Virtual Sponsor Booths
+        </Heading>
+        <Schedule day="sponsors-two" />
+        <Heading color="alternateHeading" size={3}>
+          Talks
+        </Heading>
+        <Schedule day="two" />
+        {/* <Heading color="mainBackground" size={3}>
+          Speaker Q&A
+        </Heading>
+        <Schedule day="qa-two" /> */}
+      </Alternate>
       <Alternate pb={100}>
         <Heading color="alternateHeading" size={2}>
           Interested in sponsoring?

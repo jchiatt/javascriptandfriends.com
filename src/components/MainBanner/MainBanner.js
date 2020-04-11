@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 import bannerImg from "./homepage-image.png";
 import { Flex, Box } from "@rebass/grid";

@@ -1,202 +1,383 @@
 import React from 'react';
 
 export default function Schedule({ day }) {
-  if ( day === 'workshop' ) {
+  if ( !day ) return null;
+  if ( day === "sponsors-one") {
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Sponsor</th>
+            <th>Time</th>
+            <th>Zoom Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AWS</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td>Cloudinary</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td>Mississippi Coding Academies</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td>The Bean Path</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+        </tbody>
+      </table>
+    )
+  }
+  if ( day === "sponsors-two") {
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Sponsor</th>
+            <th>Time</th>
+            <th>Zoom Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AWS</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td>Cloudinary</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td>Mississippi Coding Academies</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td>The Bean Path</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+        </tbody>
+      </table>
+    )
+  }
+  if ( day === "one" ) {
     return (
       <table>
         <thead>
           <tr>
             <th>Time</th>
             <th>Event</th>
-            <th>Instructor</th>
-            <th>Location</th>
+            <th>Speaker</th>
+            <th>Zoom Link</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><time>8:30am</time></td>
-            <td>Arrivals, set up</td>
+            <td><time>9:00am</time></td>
+            <td>Stream Starts</td>
             <td></td>
-            <td>3rd Floor</td>
+            <td></td>
           </tr>
           <tr>
-            <td><time>9:00am</time></td>
-            <td>Get in the Fast Lane: Measuring Web Performance</td>
+            <td><time>9:15am</time></td>
+            <td>Welcome & Announcements</td>
+            <td>Emcee</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>9:30am</time></td>
+            <td>Keynote: I'm Techie and I Know It</td>
+            <td>Nashlie Sephus</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>10:00am</time></td>
+            <td>ES8, ES9, ES10+… Let’s explore JavaScript’s exciting new features</td>
+            <td>Tyler Clark</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>10:30am</time></td>
+            <td>Static generated sites === great performance. What are you waiting for?</td>
+            <td>Debbie O'Brien</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>11:00am</time></td>
+            <td>Break</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>11:15am</time></td>
+            <td>Building Your Own Design System with CSS Variables</td>
+            <td>Scott Tolinski</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>11:45am</time></td>
+            <td>Modern JavaScript for Modern Browsers</td>
             <td>Sia Karamalegos</td>
-            <td>3rd Floor - Room 214A</td>
+            <td></td>
           </tr>
           <tr>
-            <td><time>9:00am</time></td>
-            <td>Zero Dependency Components: Introduction to Web Components</td>
-            <td>Nate Clark</td>
-            <td>3rd Floor - Room 213</td>
+            <td><time>12:15pm</time></td>
+            <td>Overview: Mississippi Coding Academies</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>12:25pm</time></td>
+            <td>Break, Start Q&A's</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>1:00pm</time></td>
+            <td>Lunch (with Virtual Lunch Tables)</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>2:30pm</time></td>
+            <td>Component Reusability at scale with StorybookJS</td>
+            <td>Michael Liendo</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>3:00pm</time></td>
+            <td>Progressive Enhancement in React</td>
+            <td>Kayla Sween</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>3:30pm</time></td>
+            <td>Adventures of Machine Learning in JavaScript</td>
+            <td>Gant Laborde</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>4:00pm</time></td>
+            <td>Break</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>4:15pm</time></td>
+            <td>Twitter Driven Development, Redux</td>
+            <td>Justin Samuels</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>4:45pm</time></td>
+            <td>I Can't See: Low Vision A11y & Users</td>
+            <td>Chris DeMars</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>5:15pm</time></td>
+            <td>Day 1 - Closing Remarks, Start Q&A's</td>
+            <td></td>
+            <td></td>
           </tr>
         </tbody>
       </table>
     )
   }
-  return (
-    <table>
-      <thead>
-        <tr>
-          <th>Time</th>
-          <th>Event</th>
-          <th>Speaker</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><time>7:30am - 10:00am</time></td>
-          <td>Registration</td>
-          <td></td>
-          <td>3rd Floor Corridor</td>
-        </tr>
-        <tr>
-          <td><time>9:00am</time></td>
-          <td>Empower Through Web Development</td>
-          <td>Blake Watson</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>9:30am</time></td>
-          <td>Master the JavaScript Interview</td>
-          <td>Tyler Clark</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>9:55am</time></td>
-          <td>Renderless Components with Hooks</td>
-          <td>Ken Wheeler</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>10:25am</time></td>
-          <td>Break</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>10:35am</time></td>
-          <td>The Future of Front-End Performance</td>
-          <td>Sia Karamalegos</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>11:05am</time></td>
-          <td>The WebAssembly Revolution Has Begun</td>
-          <td>Jay Phelps</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>11:35am</time></td>
-          <td>Using JS to Bridge the Tech and Culture Gap</td>
-          <td>Michael Liendo</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>12:00pm</time></td>
-          <td>Transition to Lunch</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>12:00pm - 1:40pm</time></td>
-          <td>Lunch</td>
-          <td></td>
-          <td>Rooms 301-304</td>
-        </tr>
-        <tr>
-          <td><time>12:20pm</time></td>
-          <td>Overview: Mississippi Coding Academies</td>
-          <td>Bryce Mullican</td>
-          <td>Lunch Stage - Rooms 301-304</td>
-        </tr>
-        <tr>
-          <td><time>12:30pm</time></td>
-          <td>Join the Revolution</td>
-          <td>Gant Laborde</td>
-          <td>Lunch Stage - Rooms 301-304</td>
-        </tr>
-        <tr>
-          <td><time>1:30pm</time></td>
-          <td>Break</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>1:40pm</time></td>
-          <td>JavaScript: who, what, where, why and next</td>
-          <td>Laurie Voss</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>2:10pm</time></td>
-          <td>Dissecting the fluff from the buff of TDD, Twitter Driven Development</td>
-          <td>Justin Samuels</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>2:35pm</time></td>
-          <td>How to Avoid SUX (Some User Experience)</td>
-          <td>Kayla Sween</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>3:00pm</time></td>
-          <td>Break</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>3:10pm</time></td>
-          <td>Full Stack Development in the Era of Serverless Computing</td>
-          <td>Nader Dabit</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>3:40pm</time></td>
-          <td>The Future of JavaScript Apps is Gatsby.js</td>
-          <td>Joe Previte</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>4:10pm</time></td>
-          <td>Break</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>4:20pm</time></td>
-          <td>Buliding the Next Generation of Mobile Apps Using Draftbit</td>
-          <td>Peter Piekarczyk</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>4:45pm</time></td>
-          <td>So Many Hats: Security for Web Developers</td>
-          <td>Vince Falconi</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>5:10pm</time></td>
-          <td>Writing Code Saved My Life</td>
-          <td>Kurt Kemple</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>5:40pm</time></td>
-          <td>Door Prizes / Announcements / Dismissal</td>
-          <td>J.C. Hiatt / Kenneth LaFrance</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>8:30pm</time></td>
-          <td>After Party - Open Invite!</td>
-          <td></td>
-          <td><a href="https://www.google.com/maps/place/Fondren+Public/@32.3335561,-90.1775031,17z/data=!3m1!4b1!4m5!3m4!1s0x862832e9d6869733:0xc8ea3c87956e4dda!8m2!3d32.3335516!4d-90.1753144">Fondren Public</a></td>
-        </tr>
-      </tbody>
-    </table>
-  )
+  if ( day === "two"  ) {
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Speaker</th>
+            <th>Zoom Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><time>9:00am</time></td>
+            <td>Stream Starts</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>9:15am</time></td>
+            <td>Welcome & Announcements</td>
+            <td>Emcee</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>9:30am</time></td>
+            <td>Which Database? How to Choose the Best Place for your JSON Documents</td>
+            <td>Suphatra Rufo</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>10:00am</time></td>
+            <td>Testing Complex RxJS Async Code Using Marble Diagrams</td>
+            <td>Jay Phelps</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>10:30am</time></td>
+            <td>Svelte and the Great Space Elevator</td>
+            <td>Shawn Wang</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>11:00am</time></td>
+            <td>Break</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>11:15am</time></td>
+            <td>Create Dynamic Web Apps With Serverless and the Jamstack</td>
+            <td>Jason Lengstorf</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>11:45am</time></td>
+            <td>Building a Full Stack CMS for the Modern Age</td>
+            <td>Nader Dabit</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>12:15pm</time></td>
+            <td>Break, Start Q&A's</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>1:00pm</time></td>
+            <td>Lunch (with Virtual Lunch Tables)</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>2:00pm</time></td>
+            <td>Handling Data with React Query</td>
+            <td>Domitrius Clark</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>2:30pm</time></td>
+            <td>Canvas: The Final Escape Hatch</td>
+            <td>Ken Wheeler</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>3:00pm</time></td>
+            <td>How to Supercharge Teams with Carefully Crafted Conventions</td>
+            <td>Chris Ball</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>3:30pm</time></td>
+            <td>Break</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>3:45pm</time></td>
+            <td>Chasing Whales of the Command Line: The What, How, and Why of Containers 🐳</td>
+            <td>Brian Holt</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>4:15pm</time></td>
+            <td>Thar Be Dragons: Rebuilding Native UIs on the Web</td>
+            <td>Chance Strickland</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>4:45pm</time></td>
+            <td>Zoom Chatbots</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>5:15pm</time></td>
+            <td>Day 2 — Closing Remarks, Giveaways</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    )
+  }
 }

@@ -1,7 +1,5 @@
-import React from "react";
 import styled from "styled-components";
 import { Box } from "rebass";
-import { space, width, fontSize, color } from "styled-system";
 
 const AlternateWrapper = styled(Box)`
   background-color: ${props => props.theme.colors.alternateBackground};
