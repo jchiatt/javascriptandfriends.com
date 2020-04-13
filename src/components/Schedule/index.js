@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function Schedule({ day }) {
-  if ( !day ) return null;
   if ( day === "sponsors-one") {
     return (
       <table>
@@ -380,4 +379,5 @@ export default function Schedule({ day }) {
       </table>
     )
   }
+  return null;
 }
