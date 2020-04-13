@@ -218,8 +218,8 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>3:00pm</time></td>
-            <td>Progressive Enhancement in React</td>
-            <td>Kayla Sween</td>
+            <td>Create Dynamic Web Apps With Serverless and the Jamstack</td>
+            <td>Jason Lengstorf</td>
             <td>Coming soon</td>
           </tr>
           <tr>
@@ -306,8 +306,8 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>11:15am</time></td>
-            <td>Create Dynamic Web Apps With Serverless and the Jamstack</td>
-            <td>Jason Lengstorf</td>
+            <td>Progressive Enhancement in React</td>
+            <td>Kayla Sween</td>
             <td>Coming soon</td>
           </tr>
           <tr>
