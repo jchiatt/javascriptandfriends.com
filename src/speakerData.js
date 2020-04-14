@@ -1,10 +1,8 @@
 import NashlieSephus from "./images/2020-speakers/nashlie-sephus.jpg";
-import JayPhelps from "./images/2020-speakers/jay-phelps.jpg";
 import BrianHolt from "./images/2020-speakers/brian-holt.jpg";
 import KenWheeler from "./images/2020-speakers/ken-wheeler.jpg";
 import ShawnWang from "./images/2020-speakers/shawn-wang.jpg";
 import GantLaborde from "./images/2020-speakers/gant-laborde.jpg";
-import MichaelLiendo from "./images/2020-speakers/michael-liendo.jpg";
 import KaylaSween from "./images/2020-speakers/kayla-sween.jpg";
 import TylerClark from "./images/2020-speakers/tyler-clark.png";
 import ChrisDemars from "./images/2020-speakers/chris-demars.jpg";
@@ -18,6 +16,7 @@ import SiaKaramalegos from "./images/2020-speakers/sia-karamalegos.gif";
 import JasonLengstorf from "./images/2020-speakers/jason-lengstorf.jpg";
 import ChanceStrickland from "./images/2020-speakers/chance-strickland.jpg";
 import DebbieOBrien from "./images/2020-speakers/debbie-obrien.jpg";
+import JamesQuick from "./images/2020-speakers/james-quick.png";
 
 export default [
   {
@@ -33,20 +32,6 @@ export default [
     },
     twitter: "phenomenashlie",
     company: " Amazon / The Bean Path"
-  },
-  {
-    name: "Jay Phelps",
-    bio: `Jay is a Reactive Programming nut, compiler/language design enthusiast, and previously an engineer at Netflix.
-
-    He has contributed to numerous open source projects and volunteered as part of the W3C WebAssembly Community Group. He was previously on the core team of RxJS, and is the author of git-blame-someone-else.`,
-    Image: JayPhelps,
-    talk: {
-      title: "Testing Complex RxJS Async Code Using Marble Diagrams",
-      description: `Testing complex async code can be challenging. But if we're using RxJS, there's a lesser-known feature we can use to make things much easier on us: the TestScheduler. Together, we can deterministically virtualize time using a declarative ASCII marble diagram.
-      
-      In this talk, we'll first briefly cover what RxJS is, then focus on the various patterns for testing your RxJS code, including using the TestScheduler and the syntax of ASCII marble diagrams.`
-    },
-    twitter: "_jayphelps",
   },
   {
     name: "Ken Wheeler",
@@ -97,20 +82,6 @@ export default [
     },
     twitter: "stolinski",
     company: "Level Up Tutorials"
-  },
-  {
-    name: "Michael Liendo",
-    bio:
-      "UX Engineer at John Deere. When not teaching frontend concepts, I can be found dabbling in serverless stacks or playing ultimate frisbee. A Dad joke connoisseur who finds bananas appealing.",
-    Image: MichaelLiendo,
-    talk: {
-      title: "Component Reusability at scale with StorybookJS",
-      description: `The current state of the web is component-driven. While reusing components across a single project is a great exercise, achieving reusability across a global platform presents its own challenges.
-
-      In this talk we’ll identify some do’s and don’ts for UX and Product teams, and how StorybookJS helped bridge the gap between design and development.`
-    },
-    twitter: "mtliendo",
-    company: "John Deere"
   },
   {
     name: "Gant Laborde",
@@ -203,6 +174,21 @@ export default [
       My talk will cover what vision accessibility is, different categories of low vision, what the needs of the users are, and what we as developers can do to achieve a great user experience for low vision users.`
     },
     twitter: "saltnburnem",
+    company: "Tuft & Needle"
+  },
+  {
+    name: "James Quick",
+    bio:
+      "James is a developer, speaker, and teacher with a passion for web development, design, and developer tools. He is a Senior Developer Advocate at Auth0 and has over 7 years of experience in Advocacy and Software Development. In his spare time, he runs a YouTube channel, plays co-ed soccer with his wife, spends time with his dogs, and can solve a Rubik's cube in under two minutes.",
+    Image: JamesQuick,
+    talk: {
+      title: "Static Sites and Serverless Functions - A Dynamic Combination",
+      description: `Static sites are growing in popularity, but many developers still question just how powerful they can be. As it turns out, there is an entire ecosystem of added functionality in the form of serverless functions.
+
+      In this talk, learn how to add dynamic functionality like email, text messaging, interacting with a data source, etc. to your static site using serverless functions. We will integrate and deploy a working demo that you, the audience, get to participate in. In this interactive talk, you'll learn that by using the right tools, there’s almost nothing you can’t do.`
+    },
+    twitter: "jamesqquick",
+    company: "Auth0"
   },
   {
     name: "Nader Dabit",

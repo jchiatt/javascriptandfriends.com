@@ -211,8 +211,8 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>2:30pm</time></td>
-            <td>Component Reusability at scale with StorybookJS</td>
-            <td>Michael Liendo</td>
+            <td>Static Sites and Serverless Functions - A Dynamic Combination</td>
+            <td>James Quick</td>
             <td>Coming soon</td>
           </tr>
           <tr>
@@ -287,8 +287,8 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>10:00am</time></td>
-            <td>Testing Complex RxJS Async Code Using Marble Diagrams</td>
-            <td>Jay Phelps</td>
+            <td>OPEN</td>
+            <td></td>
             <td>Coming soon</td>
           </tr>
           <tr>
@@ -365,7 +365,7 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>4:45pm</time></td>
-            <td>Zoom Chatbots</td>
+            <td>OPEN</td>
             <td></td>
             <td>Coming soon</td>
           </tr>
