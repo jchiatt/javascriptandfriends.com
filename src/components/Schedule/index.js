@@ -287,8 +287,8 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>10:00am</time></td>
-            <td>OPEN</td>
-            <td></td>
+            <td>Thar Be Dragons: Rebuilding Native UIs on the Web</td>
+            <td>Chance Strickland</td>
             <td>Coming soon</td>
           </tr>
           <tr>
@@ -359,18 +359,6 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>4:15pm</time></td>
-            <td>Thar Be Dragons: Rebuilding Native UIs on the Web</td>
-            <td>Chance Strickland</td>
-            <td>Coming soon</td>
-          </tr>
-          <tr>
-            <td><time>4:45pm</time></td>
-            <td>OPEN</td>
-            <td></td>
-            <td>Coming soon</td>
-          </tr>
-          <tr>
-            <td><time>5:15pm</time></td>
             <td>Day 2 — Closing Remarks, Giveaways</td>
             <td></td>
             <td>Coming soon</td>
