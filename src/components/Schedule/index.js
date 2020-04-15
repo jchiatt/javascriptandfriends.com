@@ -534,12 +534,6 @@ export default function Schedule({ day }) {
           <td><a href="https://us02web.zoom.us/j/89415144900?pwd=SXB5VUV3YlBNQmVpV2M0Y24wRjZPQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
-          <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
-          <td><a href="https://us02web.zoom.us/j/83182538787?pwd=K2ZxYy9sUkc4cHpGSCsydWVxNS9nZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-        </tr>
-
-        <tr>
           <td>Chance Strickland</td>
           <td><time>12:30pm - 1:00pm (US/Central)</time></td>
           <td><a href="https://us02web.zoom.us/j/81183035245?pwd=MzJhQ2xJdUVDTWZIejZDNlV4MWhZZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
