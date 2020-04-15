@@ -98,13 +98,23 @@ export default function Schedule({ day }) {
             <td>Coming soon</td>
           </tr>
           <tr>
+            <td></td>
+            <td><time>4:30pm - 5:30pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
             <td>Cloudinary</td>
             <td><time>9:00am - 9:30am (US/Central)</time></td>
             <td>Coming soon</td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>4:30pm - 5:30pm (US/Central)</time></td>
             <td>Coming soon</td>
           </tr>
           <tr>
@@ -114,7 +124,12 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>4:30pm - 5:30pm (US/Central)</time></td>
             <td>Coming soon</td>
           </tr>
           <tr>
@@ -124,7 +139,12 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td>Coming soon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>4:30pm - 5:30pm (US/Central)</time></td>
             <td>Coming soon</td>
           </tr>
         </tbody>
