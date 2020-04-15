@@ -15,7 +15,7 @@ export default function Schedule({ day }) {
           <tr>
             <td>AWS</td>
             <td><time>9:00am - 9:30am (US/Central)</time></td>
-            <td>Coming soon</td>
+            <td><a href="https://us02web.zoom.us/j/83407653652?pwd=aHhSNFJYZ052MjNqVlo4Z21FUGtXUT09">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
@@ -373,7 +373,7 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>3:45pm</time></td>
-            <td>Chasing Whales of the Command Line: The What, How, and Why of Containers 🐳</td>
+            <td>Chasing Whales of the Command Line: The What, How, and Why of Containers <span role="img" aria-label="Whale emoji">🐳</span></td>
             <td>Brian Holt</td>
             <td>Coming soon</td>
           </tr>

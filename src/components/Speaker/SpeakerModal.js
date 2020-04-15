@@ -28,7 +28,7 @@ const SpeakerModal = ({
           boxShadow: "0px 3px 15px rgba(0,0,0,0.2)"
         }}
       >
-        <img src={Image} />
+        <img src={Image} alt={name} />
       </div>
       <h1 style={{ textAlign: "center" }}>{name}</h1>
       <Flex
