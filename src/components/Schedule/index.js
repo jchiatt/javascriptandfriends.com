@@ -410,11 +410,6 @@ export default function Schedule({ day }) {
         </tr>
         <tr>
           <td>Domitrius Clark</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
-          <td><a href="https://us02web.zoom.us/j/85276869322?pwd=UFNZQ0o2Y0xtVTZkR29KMEViODVmdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-        </tr>
-        <tr>
-          <td></td>
           <td><time>5:30pm - 6:00pm (US/Central)</time></td>
           <td><a href="https://us02web.zoom.us/j/88350899847?pwd=eHpoNFJVQjJCcjRTY2NHZXNYY1NoZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
@@ -470,11 +465,6 @@ export default function Schedule({ day }) {
         </tr>
         <tr>
           <td>Jason Lengstorf</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
-          <td><a href="https://us02web.zoom.us/j/85681776447?pwd=eWwvczhGUkg4VGRRUzNrbWJVdHdVQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-        </tr>
-        <tr>
-          <td></td>
           <td><time>5:30pm - 6:00pm (US/Central)</time></td>
           <td><a href="https://us02web.zoom.us/j/89083152842?pwd=b1lXQW5RMVRkYTN5Y21NT3N4Z3o3dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
