@@ -38,9 +38,19 @@ export default function Schedule({ day }) {
             <td><a href="https://us02web.zoom.us/j/82420306980?pwd=NnU3bUhBelRKN3BZbGdnRjV2NHRVdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
+            <td>Kopis Mobile</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><a href="https://us02web.zoom.us/j/81217087657?pwd=WUlPZmdtdGM0SmZVOFNCUGx4Z0p4Zz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td><a href="https://us02web.zoom.us/j/81196289630?pwd=UDRsUlBzSTdYZVF1bjVpSzBWTTVJdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
             <td></td>
             <td><time>5:30pm - 6:00pm (US/Central)</time></td>
-            <td><a href="https://us02web.zoom.us/j/81561979536?pwd=M1UrSkJBYWoxbWc4ckJCVHdTVHZVQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+            <td><a href="https://us02web.zoom.us/j/85965144019?pwd=T1kvWEpkMkMrc1U0aTdkRjNLYloxQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>Mississippi Coding Academies</td>
@@ -113,9 +123,19 @@ export default function Schedule({ day }) {
             <td><a href="https://us02web.zoom.us/j/84702439436?pwd=MU55TkJZdnlmRTZQd1pnWkFwUTc5QT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
+            <td>Kopis Mobile</td>
+            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><a href="https://us02web.zoom.us/j/87456051914?pwd=azh1VGxIU3F5UGgvNXZDWHF0UXIrQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td><a href="https://us02web.zoom.us/j/83379666712?pwd=TnJ0cDJOL1B3MkN3OE5LVTlCWFVZZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
             <td></td>
             <td><time>4:30pm - 5:30pm (US/Central)</time></td>
-            <td><a href="https://us02web.zoom.us/j/83912445953?pwd=T1JxN0JIbnc2OU5PLzcybExzbE1odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+            <td><a href="https://us02web.zoom.us/j/85027854966?pwd=Vk1UT0pzQ0h5bWdjZ1dMdTBVeHp1dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>Mississippi Coding Academies</td>
