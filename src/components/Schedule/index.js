@@ -439,16 +439,6 @@ export default function Schedule({ day }) {
           <td><a href="https://us02web.zoom.us/j/82352669072?pwd=WkRmdVdNUC9kRk56WVJwWE5MKzNjUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
-          <td>Chris DeMars</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
-          <td><a href="https://us02web.zoom.us/j/88979781367?pwd=RVkrRjZFVmRCY3dYaXVFWjA3azlLZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
-          <td><a href="https://us02web.zoom.us/j/81357088133?pwd=RVB1TDVxS0JpdWI1cExyZmRDUHhVdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-        </tr>
-        <tr>
           <td>Brian Holt</td>
           <td><time>12:30pm - 1:00pm (US/Central)</time></td>
           <td><a href="https://us02web.zoom.us/j/85063496468?pwd=eUxoandjMDIrRmpvWG9UTDRJMmpVQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
@@ -617,11 +607,6 @@ export default function Schedule({ day }) {
           <td>Nader Dabit</td>
           <td><time>12:15pm - 1:00pm (US/Central)</time></td>
           <td><a href="https://us02web.zoom.us/j/81371425307?pwd=UlRnMUdxNWV1aTJYRlhLQk5Lb1pjUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-        </tr>
-        <tr>
-          <td>Chris DeMars</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
-          <td><a href="https://us02web.zoom.us/j/84124028847?pwd=amVFdnZYRUN6dElFL1V3WXpIUTlkUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Brian Holt</td>
