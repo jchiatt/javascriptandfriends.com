@@ -184,18 +184,6 @@ export default function Schedule({ day }) {
         </thead>
         <tbody>
           <tr>
-            <td><time>2:30pm</time></td>
-            <td>Twitter Driven Development, Redux</td>
-            <td>Justin Samuels</td>
-            <td><a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-          </tr>
-          <tr>
-            <td><time>3:00pm</time></td>
-            <td>Create Dynamic Web Apps With Serverless and the Jamstack</td>
-            <td>Jason Lengstorf</td>
-            <td><a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-          </tr>
-          <tr>
             <td><time>3:30pm</time></td>
             <td>Adventures of Machine Learning in JavaScript</td>
             <td>Gant Laborde</td>
