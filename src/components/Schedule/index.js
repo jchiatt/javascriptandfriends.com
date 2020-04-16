@@ -251,8 +251,8 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>2:30pm</time></td>
-            <td>Static Sites and Serverless Functions - A Dynamic Combination</td>
-            <td>James Quick</td>
+            <td>Twitter Driven Development, Redux</td>
+            <td>Justin Samuels</td>
             <td><a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
@@ -275,8 +275,8 @@ export default function Schedule({ day }) {
           </tr>
           <tr>
             <td><time>4:15pm</time></td>
-            <td>Twitter Driven Development, Redux</td>
-            <td>Justin Samuels</td>
+            <td>Static Sites and Serverless Functions - A Dynamic Combination</td>
+            <td>James Quick</td>
             <td><a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
@@ -627,11 +627,6 @@ export default function Schedule({ day }) {
           <td>Sia Karamalegos</td>
           <td><time>12:15pm - 1:00pm (US/Central)</time></td>
           <td><a href="https://us02web.zoom.us/j/81285101072?pwd=dnphR2NHTGl6TVRNTkpGWkovU3ZQQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-        </tr>
-        <tr>
-          <td>Gant Laborde</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
-          <td><a href="https://us02web.zoom.us/j/83391377122?pwd=MVRmdDdxU1VnUGMvWUszdlJGK0Q2Zz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Debbie O'Brien</td>
