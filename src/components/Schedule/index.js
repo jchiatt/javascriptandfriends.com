@@ -14,72 +14,72 @@ export default function Schedule({ day }) {
         <tbody>
           <tr>
             <td>AWS</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/83407653652?pwd=aHhSNFJYZ052MjNqVlo4Z21FUGtXUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/86707782650?pwd=TGl4aUlPNVJLZ2JzblZhVlV3NDZOZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+            <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/82938122588?pwd=ZzlCT0N6T2toelpVd3Bnb1c3UlZYQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>Cloudinary</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/81992600955?pwd=eWFqZmc1S1dLQXdrejVvVDIyWTlqZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/82420306980?pwd=NnU3bUhBelRKN3BZbGdnRjV2NHRVdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>Kopis Mobile</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/81217087657?pwd=WUlPZmdtdGM0SmZVOFNCUGx4Z0p4Zz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/81196289630?pwd=UDRsUlBzSTdYZVF1bjVpSzBWTTVJdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+            <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/85965144019?pwd=T1kvWEpkMkMrc1U0aTdkRjNLYloxQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>Mississippi Coding Academies</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/83905073997?pwd=bUlaTEQrLzJtUkFKeGZkdGtDak91dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/81474144270?pwd=NlFUVGdLS0RKK3YxcnczVnY2dG9YQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+            <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/81203623171?pwd=QjQzdzIraENzMXZUVCtFNUswbnFrUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>The Bean Path</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/89834588289?pwd=OVM4WXZhNmVZc1hNZ0dWMjhLbnVyQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:30pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/83149420851?pwd=QUJ3Qlo4TERUbGxCaTVmVTlVQ0M0QT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+            <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/81821206096?pwd=MWNpOE5YK0g1WXpaelB4N1lrK1hWdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
         </tbody>
@@ -99,72 +99,72 @@ export default function Schedule({ day }) {
         <tbody>
           <tr>
             <td>AWS</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/87170189324?pwd=WndKQjVPMkZuaWhNQTFyazNYMHAyZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/84219034033?pwd=Vy9wOGMrWTRnZGlBSDN0V3p4VHNFQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>4:30pm - 5:30pm (US/Central)</time></td>
+            <td><time>4:30pm - 5:30pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/84052308778?pwd=dCtCb0JBVTFFcGlMZVZ0R3R4enNhUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>Cloudinary</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/83249845460?pwd=VjRtVmkxcnpnNjRCTmVnRU1xL3hNQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/84702439436?pwd=MU55TkJZdnlmRTZQd1pnWkFwUTc5QT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>Kopis Mobile</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/87456051914?pwd=azh1VGxIU3F5UGgvNXZDWHF0UXIrQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/83379666712?pwd=TnJ0cDJOL1B3MkN3OE5LVTlCWFVZZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>4:30pm - 5:30pm (US/Central)</time></td>
+            <td><time>4:30pm - 5:30pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/85027854966?pwd=Vk1UT0pzQ0h5bWdjZ1dMdTBVeHp1dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>Mississippi Coding Academies</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/81256792983?pwd=OHBLVmpXbWpuQ3pPb0Nvc1Z0QWxmQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/88609785623?pwd=a21reVJmVlV6RXB5OThHSExQYi9hUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>4:30pm - 5:30pm (US/Central)</time></td>
+            <td><time>4:30pm - 5:30pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/82178550888?pwd=eld6dW9RVDVUeG9RRnBLbENqa0VaUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td>The Bean Path</td>
-            <td><time>9:00am - 9:30am (US/Central)</time></td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/85703216883?pwd=anJPQmtDV0RISkJxUDhzd3FPQ1Uwdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>1:00pm - 2:00pm (US/Central)</time></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/87818373622?pwd=OTJTWHR4OEQrb1FCSFU4TEQxeTdMUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><time>4:30pm - 5:30pm (US/Central)</time></td>
+            <td><time>4:30pm - 5:30pm (GMT -5:00)</time></td>
             <td><a href="https://us02web.zoom.us/j/87597173815?pwd=S0lpZ2VwUlpGcFVreGJoSTNkSTNRdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
         </tbody>
@@ -420,167 +420,167 @@ export default function Schedule({ day }) {
         <tbody>
         <tr>
           <td>Chris Ball</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/89542012683?pwd=UHlhRks4MzlSSXczMUNmdE1PZjFYQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83889584638?pwd=bUYySkx6dVFIOGJUWXJoazY1V1RBUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Domitrius Clark</td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/88350899847?pwd=eHpoNFJVQjJCcjRTY2NHZXNYY1NoZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Tyler Clark</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83881702584?pwd=VFVZdkFBNVMxb0ZkL29OU2lEMVB3UT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83738349091?pwd=Wk5MT0pKY3MwZml1NmtxUDBpMTd2Zz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Nader Dabit</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/86306329391?pwd=WjdlQXNlUFB3VmlkMW5BdUU0S3JRZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/82352669072?pwd=WkRmdVdNUC9kRk56WVJwWE5MKzNjUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Brian Holt</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/85063496468?pwd=eUxoandjMDIrRmpvWG9UTDRJMmpVQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/89073276144?pwd=b2lvZUZiVHpNSWRsbnZZMitPMVFXQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Sia Karamalegos</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83881702584?pwd=VFVZdkFBNVMxb0ZkL29OU2lEMVB3UT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/85178600206?pwd=cmhSZ05zdTA3TnpHcVBWMkIxL3ZQZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Gant Laborde</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/82827773045?pwd=WHNCaVl5eWxyKzlXY2JLVVhPREw2Zz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/87124859341?pwd=ZUVYQ0RoN1VGSFViUjVOMm1ncllWQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Jason Lengstorf</td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/89083152842?pwd=b1lXQW5RMVRkYTN5Y21NT3N4Z3o3dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Debbie O'Brien</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/85377852647?pwd=eVNwVFd6VmxzSkVLeGFucWJiVGxqdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/84730119947?pwd=ODIydUtSc3d1eVZ4Y0RqSFAvdEdLQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>James Quick</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83658292404?pwd=T3JiUER1ZG5SQnNjVFdWYzNlMnpqdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/84741811759?pwd=OGM1ZWpMak9ISmVOVjBhcmU5SHJTdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Suphatra Rufo</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/86845803065?pwd=K1lTNFBHQ3daYVV0QklMSFNDQkdydz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/84077149939?pwd=MVRpV3VZZGNZL3BWbFo5MTJiSkxiZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Justin Samuels</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/85129778073?pwd=NnpsemlPcm1oTjR4cTVzd3V1NldqZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/85103392071?pwd=RkVQU0tnWVpZUCswdy9CK0w3TE1yQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Nashlie Sephus</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/89415144900?pwd=SXB5VUV3YlBNQmVpV2M0Y24wRjZPQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Chance Strickland</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/81183035245?pwd=MzJhQ2xJdUVDTWZIejZDNlV4MWhZZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/85996322430?pwd=Q01FTGN3ejBpaUI1bjBmYmZubG5IUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Kayla Sween</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/81193519459?pwd=b1Y3Unl3YUpNVnJVWXFJaHRLVWhHZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83520312774?pwd=QzVPOGUxdnhXK3djN1F3cHJqQmFpQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Scott Tolinski</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/81852132385?pwd=aWlBSTB0N1VxckxtdTZsVlkzOHBuQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/87827010112?pwd=cHVxVUNoeHVWZ0h6UFA2Sjkvelk2dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Shawn Wang</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/88384431489?pwd=TkgzbVN5S0ZkSys0Q1Z3eXVhdnY3Zz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/82593325714?pwd=R1Y0WG1zNGhIMlFiZGhNVHZ1cHp4UT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Ken Wheeler</td>
-          <td><time>12:30pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:30pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83949791527?pwd=M1NWc2F4NERoRk5kSkNrYXRyK1lzZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td></td>
-          <td><time>5:30pm - 6:00pm (US/Central)</time></td>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83584414341?pwd=bWlrVC9UYjlQNyt6KzBwNUFUTmFwZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         </tbody>
@@ -600,83 +600,83 @@ export default function Schedule({ day }) {
         <tbody>
         <tr>
           <td>Chris Ball</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/86316511425?pwd=TkpFbzYxQVJBMER1RHJPYWhONWoxUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Domitrius Clark</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/82156163153?pwd=a1BnUmt5blBQa3NKYWdWcUgyMEhRZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Tyler Clark</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83133058518?pwd=VzJxd1lNR1BPMkZZZC94K1FoekJtdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Nader Dabit</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/81371425307?pwd=UlRnMUdxNWV1aTJYRlhLQk5Lb1pjUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Brian Holt</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/87278072665?pwd=T2IvTmtiSWVDUXA4N0d1VlhSdVdGUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Sia Karamalegos</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/81285101072?pwd=dnphR2NHTGl6TVRNTkpGWkovU3ZQQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Debbie O'Brien</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/84742790285?pwd=RFpXcm94Q2pDU0RaUVBjK1pHL0xWQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>James Quick</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/84474009215?pwd=VjhmQ3IrTE1Sc29IQktkdVlJamJ3dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Suphatra Rufo</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/87522832578?pwd=KzRkR0RIY3NxMncxRWYzK3FwOThQQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Justin Samuels</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/84594655486?pwd=SzhoeWdZb3JZTTZudG9PYmZaMjZoUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Nashlie Sephus</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/85368124013?pwd=akxkeDRzMDdlNWdhY1R6SzQ4YWNoZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
 
         <tr>
           <td>Chance Strickland</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/89170497806?pwd=amtZN253b3E1ZUllVkVDRzJrS1ZtQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Kayla Sween</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/82822143832?pwd=b1BpaUlrOG80a0Q2ZGJRTEFFSWg0UT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Scott Tolinski</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/81442307763?pwd=WitKdWtoVEpiZXhkRWlvSXVVeHp5Zz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Shawn Wang</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/83438462486?pwd=b0tlSStqVlhaMm42Ti9LVnZWY0N6dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
           <td>Ken Wheeler</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
           <td><a href="https://us02web.zoom.us/j/82442085330?pwd=NHFMTG05Zm9CY253eEM4N2JBN3F6UT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         </tbody>

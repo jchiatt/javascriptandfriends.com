@@ -67,7 +67,7 @@ const Root = () => (
         })}
       </article>
       <Alternate pb={100} style={{overflowX: 'scroll'}}>
-        <Text pt={10} pb={30} style={{ fontWeight: 700 }}>ALL TIMES ARE IN US/CENTRAL.</Text>
+        <Text pt={10} pb={30} style={{ fontWeight: 700 }}>ALL TIMES ARE IN US/CDT (GMT -5:00).</Text>
         <Text pt={10} pb={30}>All talks will happen on our main Zoom Webinar link. Other events, such as Virtual Sponsor Booths, Q&A's, Virtual Lunch Tables, etc. will have their own respective Zoom meeting links.</Text>
         <Text pt={10} pb={30}>We will have a Watercooler running at all times for anyone who wants to pop in and get to know others. Please adhere to our Code of Conduct.</Text>
         <Heading color="mainBackground" size={2}>
