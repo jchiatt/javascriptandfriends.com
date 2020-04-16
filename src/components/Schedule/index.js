@@ -634,11 +634,6 @@ export default function Schedule({ day }) {
           <td><a href="https://us02web.zoom.us/j/83391377122?pwd=MVRmdDdxU1VnUGMvWUszdlJGK0Q2Zz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
         <tr>
-          <td>Jason Lengstorf</td>
-          <td><time>12:15pm - 1:00pm (US/Central)</time></td>
-          <td><a href="https://us02web.zoom.us/j/81185857422?pwd=Y3kxdUdUTzR0YmVKN2FYRFZWckp6UT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
-        </tr>
-        <tr>
           <td>Debbie O'Brien</td>
           <td><time>12:15pm - 1:00pm (US/Central)</time></td>
           <td><a href="https://us02web.zoom.us/j/84742790285?pwd=RFpXcm94Q2pDU0RaUVBjK1pHL0xWQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
