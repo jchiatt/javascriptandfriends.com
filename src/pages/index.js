@@ -70,21 +70,6 @@ const Root = () => (
         <Text pt={10} pb={30} style={{ fontWeight: 700 }}>ALL TIMES ARE IN US/CDT (GMT -5:00).</Text>
         <Text pt={10} pb={30}>All talks will happen on our main Zoom Webinar link. Other events, such as Virtual Sponsor Booths, Q&A's, Virtual Lunch Tables, etc. will have their own respective Zoom meeting links.</Text>
         <Text pt={10} pb={30}>We have a <a href="https://discord.gg/YfES4bp">Discord server</a> for anyone who wants to pop in and get to know others. Please adhere to our Code of Conduct.</Text>
-        <Heading color="mainBackground" size={2}>
-          Schedule - April 16 (Day 1)
-        </Heading>
-        <Heading color="mainBackground" size={3}>
-          Virtual Sponsor Booths
-        </Heading>
-        <Schedule day="sponsors-one" />
-        <Heading color="mainBackground" size={3}>
-          Talks - <a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Click here to open Day 1 Zoom webinar</a>
-        </Heading>
-        <Schedule day="one" />
-        <Heading color="mainBackground" size={3}>
-          Speaker Q&A
-        </Heading>
-        <Schedule day="qa-one" />
         <Heading color="alternateHeading" size={2}>
           Schedule - April 17 (Day 2)
         </Heading>
