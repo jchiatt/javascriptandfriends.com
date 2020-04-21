@@ -49,9 +49,10 @@ const Root = () => (
           justifyContent: "center"
         }}
       >
-        {speakerData.slice(0, 3).map(speaker => {
+        {speakerData.map(speaker => {
           return (
             <Speaker
+              key={speaker.name}
               name={speaker.name}
               Image={speaker.Image}
               talk={{
@@ -65,44 +66,26 @@ const Root = () => (
           );
         })}
       </article>
-      <Text pt={10} pb={30} textAlign="center">
-        <Link href="/speakers">See all speakers</Link>
-      </Text>
-      {/* <Alternate pb={100}>
-        <Heading color="mainBackground" size={2} textAlign="center">
-          Speakers
-        </Heading>
-        <Flex
-          flexDirection="row"
-          flexWrap="wrap"
-          alignItems="center"
-          justifyContent="center"
-          style={{ padding: "2rem", width: "" }}
-        >
-          <Speaker
-            name="Jay Phelps"
-            Image={JayPhelpsImage}
-            talk={{
-              title: "The WebAssembly Revolution Has Begun",
-              description: "WebAssembly (aka wasm) is a new, standardized compilation target for the web, shipping in all modern browsers. But since it's so low level it can be difficult to see how it will revolutionize the next generation of web apps–and definitely not just games and C++. This is a game changer for all web developers. In this talk Jay will reveal what it is, how you can use it today, and the incredible opportunities it will unlock in the years to come."
-            }}
-            twitter="_jayphelps"
-            bio="Reactive programming nut and compiler enthusiast. Previously a Senior Software Engineer at Netflix. Lover of all things open source, his contributions span numerous ecosystems and active in the community as a Google Developer Expert for Web Technologies and W3C WebAssembly Community Group member. He previously volunteered as an RxJS core team member, and is the author of core-decorators, git-blame-someone-else, and co-author of redux-observable."
-          />
-        </Flex>
-        
-      </Alternate> */}
-      {/* <Alternate pb={100} style={{overflowX: 'scroll'}}>
-        <Heading color="mainBackground" size={2}>
-          Schedule - April 15 (Workshop Day)
-        </Heading>
-        <Text pt={10} pb={30}>Workshops run concurrently and their durations/end times will be determined by the instructors.</Text>
-        <Schedule day="workshop" />
+      <Alternate pb={100} style={{overflowX: 'scroll'}}>
+        <Text pt={10} pb={30} style={{ fontWeight: 700 }}>ALL TIMES ARE IN US/CDT (GMT -5:00).</Text>
+        <Text pt={10} pb={30}>All talks will happen on our main Zoom Webinar link. Other events, such as Virtual Sponsor Booths, Q&A's, Virtual Lunch Tables, etc. will have their own respective Zoom meeting links.</Text>
+        <Text pt={10} pb={30}>We have a <a href="https://discord.gg/YfES4bp">Discord server</a> for anyone who wants to pop in and get to know others. Please adhere to our Code of Conduct.</Text>
         <Heading color="alternateHeading" size={2}>
-          Schedule - April 16 (Conference Day)
+          Schedule - April 17 (Day 2)
         </Heading>
-        <Schedule day="conference" />
-      </Alternate> */}
+        <Heading color="alternateHeading" size={3}>
+          Virtual Sponsor Booths
+        </Heading>
+        <Schedule day="sponsors-two" />
+        <Heading color="alternateHeading" size={3}>
+          Talks - <a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Click here to open Day 2 Zoom webinar</a>
+        </Heading>
+        <Schedule day="two" />
+        <Heading color="alternateHeading" size={3}>
+          Speaker Q&A
+        </Heading>
+        <Schedule day="qa-two" />
+      </Alternate>
       <Alternate pb={100}>
         <Heading color="alternateHeading" size={2}>
           Interested in sponsoring?
@@ -115,7 +98,7 @@ const Root = () => (
             launching point for greater things for the tech in Mississippi.
           </Text>
           <Text pt={10} pb={30}>
-            We are aiming to bring together around 250 web developers and
+            We are aiming to bring together around 2,000 web developers and
             friends to learn new skills and concepts and to network and develop
             new relationships.
           </Text>

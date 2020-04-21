@@ -39,7 +39,7 @@ const Layout = ({ children, hideHeading = false }) => (
     render={data => (
       <>
         <Helmet>
-          <title>MagnoliaJS Conference - April 15-16, 2020</title>
+          <title>MagnoliaJS Conference - April 15-17, 2020</title>
         </Helmet>
         <ThemeProvider theme={theme}>
           <>
@@ -53,10 +53,10 @@ const Layout = ({ children, hideHeading = false }) => (
                   <Link to="workshops">🛠️ Workshops</Link>
                 </NavItem> */}
                 <NavItem>
-                  <Link to="info">💡 Helpful Info</Link>
+                  <Link to="info">Helpful Info</Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="thankyou">❤️ Thank You's</Link>
+                  <Link to="thankyou">❤Thank You's</Link>
                 </NavItem>
               </Nav>
             </Header>
@@ -64,7 +64,7 @@ const Layout = ({ children, hideHeading = false }) => (
             <Footer>
             <Nav>
               <NavItem>
-                <Link to="codeofconduct">📝 Code of Conduct</Link>
+                <Link to="codeofconduct">Code of Conduct</Link>
               </NavItem>
             </Nav>
               &copy; 2019 Magnolia Events LLC

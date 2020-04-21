@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import styled, { css } from "styled-components";
 import { Button as BassButton, Link as BassLink } from "rebass";
 

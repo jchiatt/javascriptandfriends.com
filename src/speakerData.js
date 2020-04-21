@@ -1,13 +1,22 @@
 import NashlieSephus from "./images/2020-speakers/nashlie-sephus.jpg";
-import TejasKumar from "./images/2020-speakers/tejas-kumar.jpg";
-import JayPhelps from "./images/2020-speakers/jay-phelps.jpg";
-import MichaelLiendo from "./images/2020-speakers/michael-liendo.jpg";
+import BrianHolt from "./images/2020-speakers/brian-holt.jpg";
+import KenWheeler from "./images/2020-speakers/ken-wheeler.jpg";
+import ShawnWang from "./images/2020-speakers/shawn-wang.jpg";
+import GantLaborde from "./images/2020-speakers/gant-laborde.jpg";
 import KaylaSween from "./images/2020-speakers/kayla-sween.jpg";
 import TylerClark from "./images/2020-speakers/tyler-clark.png";
 import ChrisDemars from "./images/2020-speakers/chris-demars.jpg";
 import NaderDabit from "./images/2020-speakers/nader-dabit.jpg";
 import JustinSamuels from "./images/2020-speakers/justin-samuels.jpg";
+import DomitriusClark from "./images/2020-speakers/domitrius-clark.jpg";
 import ChrisBall from "./images/2020-speakers/chris-ball.jpg";
+import SuphatraRufo from "./images/2020-speakers/suphatra-rufo.jpg";
+import ScottTolinksi from "./images/2020-speakers/scott-tolinski.jpg";
+import SiaKaramalegos from "./images/2020-speakers/sia-karamalegos.gif";
+import JasonLengstorf from "./images/2020-speakers/jason-lengstorf.jpg";
+import ChanceStrickland from "./images/2020-speakers/chance-strickland.jpg";
+import DebbieOBrien from "./images/2020-speakers/debbie-obrien.jpg";
+import JamesQuick from "./images/2020-speakers/james-quick.png";
 
 export default [
   {
@@ -21,51 +30,102 @@ export default [
       description:
         "A huge population of people are unaware of technologies that could benefit them, too intimidated to use technology, or have no one to show them how to use it. Yet, there are many avenues to break into tech. Through her personal journey of growing up in Mississippi, being CTO of a tech startup (Partpic) acquired by Amazon, and leading tech teams in corporate America, Dr. Nashlie Sephus encourages individuals of various ethnicities, backgrounds, and ages to be confident in embracing technology in their everyday lives. She embodies this message through nonprofit, The Bean Path, and discusses how to get free tech help."
     },
-    twitter: "nashlie_s",
+    twitter: "phenomenashlie",
     company: " Amazon / The Bean Path"
   },
   {
-    name: "Tejas Kumar",
-    bio:
-      "An award-winning web developer, Tejas has been building web experience over the past 10 years. Today, Tejas speaks to and encourages developers at events worldwide.",
-    Image: TejasKumar,
+    name: "Ken Wheeler",
+    bio: `DAT BOI`,
+    Image: KenWheeler,
     talk: {
-      title: "Learning React By Taking it Apart",
-      description:
-        "We work with React often, but its inner workings are a mystery to us. This talk looks at some key mechanisms that make React work under the hood. Specifically: the virtual DOM, Hooks, and Concurrent Mode."
+      title: "Canvas: The Final Escape Hatch",
+      description: `This talk will explore the benefits and applications of the Canvas API. If your app requires rich visualizations, or above average rendering performance, Canvas is a superpower. I’ll be making a case for use, explaining drawbacks and caveats, and showing examples of how it can be used for everything from charts to games.`
     },
-    twitter: "TejasKumar_",
-    company: "G2i"
+    twitter: "ken_wheeler",
   },
   {
-    name: "Jay Phelps",
-    bio: `Jay is a Reactive Programming nut, compiler/language design enthusiast, and previously an engineer at Netflix.
-
-    He has contributed to numerous open source projects and volunteered as part of the W3C WebAssembly Community Group. He was previously on the core team of RxJS, and is the author of git-blame-someone-else.`,
-    Image: JayPhelps,
+    name: "Shawn \"swyx\" Wang",
+    bio:
+      "swyx is an Infinite Builder working on Developer Experience at Netlify. In his free time he helps people Learn in Public at Egghead.io and /r/reactjs!",
+    Image: ShawnWang,
     talk: {
-      title: "Testing Complex RxJS Async Code Using Marble Diagrams",
-      description: `We work with React often, but its inner workings are a mystery to us. This talk looks at some key mechanisms that make React work under the hood. Specifically: the virtual DOM, Hooks, and Concurrent Mode.
+      title: "Svelte and the Great Space Elevator",
+      description: `Modern JS frameworks have run into a quandary - what we write is what we ship. Despite our best efforts at minifying and treeshaking, we cannot fight the fact that adding features means adding JS bundle size. This means we are often trading off user experience against developer experience for every fatiguing decision we make.
 
-      Testing complex async code can be challenging. But if we're using RxJS, there's a lesser-known feature we can use to make things much easier on us: the TestScheduler. Together, we can deterministically virtualize time using a declarative ASCII marble diagram.
+      But it doesn't have to be this way: as Tom Dale predicted, Compilers are the new Frameworks. Svelte is an exciting, newer JavaScript framework that was designed from the ground up with compilation and speed. In this talk, we'll look under its hood to understand how it works, so you know when and why you'd want to use it in future. Don't worry, it isn't Rocket Science!`
+    },
+    twitter: "swyx",
+    company: "Netlify"
+  },
+  {
+    name: "Brian Holt",
+    bio:
+      "Brian is currently working as a senior program manager on Azure at Microsoft and he's all about developers, developers, developers. Previously he was a JavaScript engineer at Netflix, LinkedIn and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog. Brian is currently a resident of Seattle, WA.",
+    Image: BrianHolt,
+    talk: {
+      title: "Chasing Whales of the Command Line: The What, How, and Why of Containers 🐳",
+      description: `I’m just a humble JavaScript developer. I got my start assembling the finest of forms and the craftiest cascades of CSS you ever did see. When I started to hear folks chirp about these “containers” of “Linux” I just went on my merry way, diving head first into yet-another-JavaScript-framework. However this idea stuck with me: the idea that I could use little self-contained environments to accomplish tasks and then throw them away. I begin to question, ponder, and obsess after this proverbial whale, a Moby Dick of the command line. You too may wonder if I call myself Ishamel, but in the end I too got my whale. 🐳
+
+      Turns out containers are useful for everyone, from the designing of shimmering interfaces to the dredges of the data center, and I think you’ll benefit too from know how it all works. As with all things though, I’m deadly curious as to what’s in the belly of the whale (oh no I’m mixing whale metaphors now), what Docker actually does for me. I believe that the more you understand your tools, the more embrace what they do for you. We’ll craft a container from hand to learn what Docker does for you and then see what we can take from that to make Docker even more useful to us. Don’t worry if you don’t know Docker yet either: we’ll harpoon that topic too.`
+    },
+    twitter: "holtbt",
+    company: "Microsoft"
+  },
+  {
+    name: "Scott Tolinkski",
+    bio:
+      "Web Developer | Creator of @leveluptuts | Co-host of Syntax.fm | Father of 2 | Bboy | Robotops Crew | Youtuber | Tea Drinker | Tutorial Marker | Fan of physical activity | Former Music Major | Denverite | Michigander | Shaw Brothers Kung Fu Film Watcher | Handstander | Stretching enthusiast",
+    Image: ScottTolinksi,
+    talk: {
+      title: "Building Your Own Design System with CSS Variables",
+      description: `You probably don't need a CSS framework. While CSS Frameworks are wonderful and certainly have their place in the development landscape, they are often overused in place of a custom solution. In this talk, we'll look at how you can abandon the bloat and overhead of a CSS framework and quickly build a robust design system of components tuned to your needs using CSS variables.`
+    },
+    twitter: "stolinski",
+    company: "Level Up Tutorials"
+  },
+  {
+    name: "Gant Laborde",
+    bio:
+      "Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is an “open sourcerer”, team leader, and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at http://gantlaborde.com/",
+    Image: GantLaborde,
+    talk: {
+      title: "Adventures of Machine Learning in JavaScript",
+      description: `More and more we hear terms like "Machine Learning" and "AI", but are those just terms for Fortune 500 companies and their SkyNet labs? Nope! It's cool stuff that's coming our way, and we can access it in JavaScript in the browser! Let's explore and make some cool stuff in web pages!`
+    },
+    twitter: "GantLaborde",
+    company: "Infinite Red"
+  },
+  {
+    name: "Sia Karamalegos",
+    bio:
+      "Sia Karamalegos is a developer, international conference speaker, and writer. She is a Google Developer Expert in Web Technologies and a Women Techmakers ambassador. She co-organizes GDG New Orleans and its marquee event, DevFest New Orleans. She is the founder and lead developer for Clio + Calliope Web Development and was recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana.",
+    Image: SiaKaramalegos,
+    talk: {
+      title: "Modern JavaScript for Modern Browsers",
+      description: `Web performance matters. From SEO to bottom-line revenue impacts, performance can make or break your app. However, fixing performance feels like a quagmire of expert-level topics. What if I told you JavaScript bundle sizes could be cut up to 50% by doing one thing only? Nearly 90% of web traffic runs on modern browsers, but we’re transpiling all of our JavaScript to ES5. That’s expensive. In this talk, we’ll learn about differential serving, or serving both modern bundles and legacy bundles using webpack. This talk is framework agnostic, and best if you have at least a basic understanding of JavaScript.`
+    },
+    twitter: "TheGreenGeek",
+    company: "Clio & Calliope"
+  },
+  {
+    name: "Jason Lengstorf",
+    bio:
+      `Jason Lengstorf is a principal developer experience engineer at Netlify and the host of Learn With Jason, a live-streamed video show where he pairs with people in the community to learn something new.
+
+      Jason has worked as the head of developer relations at Gatsby, a software architect at IBM, as a consultant for companies including PlayStation and Intel, and as an entrepreneur who grew and sold a design agency. Along the way, he’s written several books and dozens of tutorials about development, process and system design, and work-life balance. He uses his eclectic 15+ years of experience to offer a unique, cross-functional approach to solving complex problems.
       
-      In this talk, we'll first briefly cover what RxJS is, then focus on the various patterns for testing your RxJS code, including using the TestScheduler and the syntax of ASCII marble diagrams.`
-    },
-    twitter: "_jayphelps",
-  },
-  {
-    name: "Michael Liendo",
-    bio:
-      "UX Engineer at John Deere. When not teaching frontend concepts, I can be found dabbling in serverless stacks or playing ultimate frisbee. A Dad joke connoisseur who finds bananas appealing.",
-    Image: MichaelLiendo,
+      Building better careers by first focusing on building better lives is one of Jason’s driving principles, which he writes about at lengstorf.com. He focuses on work-life balance, efficiency, processes, and productivity to help people get more done in less time — so they can spend more time on the things that matter most.
+      
+      He lives in Portland, Oregon, where he experiments on human test subjects with his smash burger and cocktail recipes.`,
+    Image: JasonLengstorf,
     talk: {
-      title: "Component Reusability at scale with StorybookJS",
-      description: `The current state of the web is component-driven. While reusing components across a single project is a great exercise, achieving reusability across a global platform presents its own challenges.
+      title: "Create Dynamic Web Apps With Serverless and the Jamstack",
+      description: `For web developers, creating servers is one of the biggest challenges of creating great web experiences. It's easy to get lost in the world of DevOps: managing containers, scalability, caching, uptime, security — it's A Lot™.
 
-      In this talk we’ll identify some do’s and don’ts for UX and Product teams, and how StorybookJS helped bridge the gap between design and development.`
+      In this talk, Jason Lengstorf teaches us how to get the outcome of a server — powerful, dynamic apps — without having to actually build or manage servers by using serverless functions. You'll learn how to handle user input like form submissions, store and retrieve data from databases, and more!`
     },
-    twitter: "mtliendo",
-    company: "John Deere"
+    twitter: "jlengstorf",
+    company: "Netlify"
   },
   {
     name: "Kayla Sween",
@@ -114,6 +174,21 @@ export default [
       My talk will cover what vision accessibility is, different categories of low vision, what the needs of the users are, and what we as developers can do to achieve a great user experience for low vision users.`
     },
     twitter: "saltnburnem",
+    company: "Tuft & Needle"
+  },
+  {
+    name: "James Quick",
+    bio:
+      "James is a developer, speaker, and teacher with a passion for web development, design, and developer tools. He is a Senior Developer Advocate at Auth0 and has over 7 years of experience in Advocacy and Software Development. In his spare time, he runs a YouTube channel, plays co-ed soccer with his wife, spends time with his dogs, and can solve a Rubik's cube in under two minutes.",
+    Image: JamesQuick,
+    talk: {
+      title: "Static Sites and Serverless Functions - A Dynamic Combination",
+      description: `Static sites are growing in popularity, but many developers still question just how powerful they can be. As it turns out, there is an entire ecosystem of added functionality in the form of serverless functions.
+
+      In this talk, learn how to add dynamic functionality like email, text messaging, interacting with a data source, etc. to your static site using serverless functions. We will integrate and deploy a working demo that you, the audience, get to participate in. In this interactive talk, you'll learn that by using the right tools, there’s almost nothing you can’t do.`
+    },
+    twitter: "jamesqquick",
+    company: "Auth0"
   },
   {
     name: "Nader Dabit",
@@ -144,6 +219,18 @@ export default [
     company: "MailChimp"
   },
   {
+    name: "Domitrius Clark",
+    bio:
+      "Developer Advocate at Cloudinary, Organizer of Reactadelphia, and Egghead instructor. I build to learn and love to teach. Esports nerd on the weekends.",
+    Image: DomitriusClark,
+    talk: {
+      title: " Handling Data with React Query",
+      description: `A constant hot topic in the world of React centers around how we should interact with data. Since the release of hooks, this topic has blown up further with newer and simpler ways to fetch, cache, and update asynchronous data. React Query is a tool that has completely answered that question for me. Join me as we dive into the strengths of it's developer experience and see multuple examples of it's hooks at work.`
+    },
+    twitter: "domitriusclark",
+    company: "Cloudinary"
+  },
+  {
     name: "Chris Ball",
     bio:
       "Chris is CTO at Echobind, a full-service agency specializing in React Native, React, and Node. When he's not helping developers grow or creating amazing products for clients, you're likely to find him playing music, cycling, or camping.",
@@ -156,5 +243,47 @@ export default [
     },
     twitter: "cball_",
     company: "Echobind"
-  }
+  },
+  {
+    name: "Suphatra Rufo",
+    bio:
+      "Suphatra Rufo is a Principal Product Marketing Manager at Couchbase. Her tech background is wide and storied: she has worked with celebrities like Selena Gomez to advocate for girls to learn how to code, and worked on TEALS, a program that places industry engineers in high school classrooms to teach computer science. She led the effort to create a nonprofit SKU for Office 365 and Azure and bring cloud computing as an upsell to the social sector to 93+ markets and realize a new revenue stream for Microsoft. She was on the original engineering team of Microsoft Teams, and saw the product from Preview to GA to v2. Most recently, she led the developer advocacy and customer storytelling efforts for the $6 billion database portfolio at Amazon Web Services. Today, she heads up solutions marketing at Couchbase, a late-stage VC-backed cloud database startup in Silicon Valley. Her industry recognition includes a Silver Lion from Cannes and top honors from Ragan Communications and PR Weekly. She has a Masters from Johns Hopkins University and volunteer teaches computer science at her local elementary schools. She lives on an island off of Seattle with her husband and two sons.",
+    Image: SuphatraRufo,
+    talk: {
+      title: "Which Database? How to Choose the Best Place for your JSON Documents",
+      description: `Document databases work best for scenarios where you need a flexible schema, your data is in XML or JSON format, you have a balanced read to write ratio, require high read performance, and want to use indexes for performance improvements. In this session, you'll learn about different databases (MongoDB, DynamoDB and Couchbase) and how to choose the best one for you.`
+    },
+    twitter: "skprufo",
+    company: "Couchbase"
+  },
+  {
+    name: "Chance Strickland",
+    bio:
+      `Chance is a front-end engineer and OSS maintainer of Reach UI, an accessibility-first component library for React. He is also a freelance developer building everything from landing pages to enterprise-grade web applications.
+
+      When he isn’t slinging code, Chance enjoys running, traveling, bouldering, playing drums, and walking his dog.`,
+    Image: ChanceStrickland,
+    talk: {
+      title: "Thar Be Dragons: Rebuilding Native UIs on the Web",
+      description: `How many times have you been asked to change the background color of the popover in a select menu? What about hiding or re-styling the inner parts of an HTML audio player? What if your marketing team doesn’t like that the controls in a date input don’t look like the buttons in your design system?
+
+      Before you roll your own custom version of a native UI component, it’s important to understand the full scope of the path you’re about to take. In this talk, Chance will walk through the complexity and nuance in native UI that we often take for granted. He’ll talk about the trade-offs we make in this process and how users will be impacted along the way.`
+    },
+    twitter: "chancethedev",
+  },
+  {
+    name: "Debbie O'Brien",
+    bio:
+      `Debbie O’Brien is Head of Learning and Developer Advocate at NuxtJS, the progressive VueJS framework. Debbie has over 10 years experience in Frontend development. She has worked as a Tech Lead and consultant for many important clients with varios technologies and often with a strong focus on performance. She has lead teams both in house and remotely as well as giving workshops and training. She has many years of experience as a mentor for online learning platforms, Treehouse and OpenClassrooms. Debbie is a Microsoft Most Valuable Professional in developer technologies, Google Developer Expert in web technologies and Cloudinary Media Developer Expert.
+
+      Debbie has a special love for JavaScript frameworks especially Vue.js and Nuxt.js and improving performance with webpack and of course the JAMstack. She holds a Frontend and FullStack Tech Degree and is Microsoft certified. Debbie is an international speaker, who has spoken at many meet-ups and conferences worldwide on many continents including Antarctica. She is also the organiser of MallorcaJS and VueSpain and is an open source contributor. Debbie is a teacher at Vue School and has created the Vue Router and Vue Internationalisation course and is also a writer for Ultimate Courses.
+
+      Debbie is Irish but lives and works in Mallorca, Spain and when she is not writing code and studying new technologies she can often be found doing all sorts of sports from running, cycling, crossfit and skiing and of course Taekwondo where she is a 4th degree black belt.`,
+    Image: DebbieOBrien,
+    talk: {
+      title: "Static generated sites === great performance. What are you waiting for?",
+      description: `Statically generated sites are the future. Seriously. With frameworks like Nuxt we can build really cool sites that look and feel like a single page application but are actually static generated. That means no need for a server but most importantly performance is amazing. Everything is generated at build time. You will learn how static sites work and how to ensure your site is extremely performant.`
+    },
+    twitter: "debs_obrien",
+  },
 ];

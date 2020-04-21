@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Text as DefaultText } from "rebass";
 import styled from "styled-components";
 

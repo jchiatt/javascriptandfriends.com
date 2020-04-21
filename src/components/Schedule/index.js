@@ -1,202 +1,369 @@
 import React from 'react';
 
 export default function Schedule({ day }) {
-  if ( day === 'workshop' ) {
+  if ( day === "sponsors-one") {
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Sponsor</th>
+            <th>Time</th>
+            <th>Zoom Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AWS</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/83407653652?pwd=aHhSNFJYZ052MjNqVlo4Z21FUGtXUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/86707782650?pwd=TGl4aUlPNVJLZ2JzblZhVlV3NDZOZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/82938122588?pwd=ZzlCT0N6T2toelpVd3Bnb1c3UlZYQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td>Cloudinary</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/81992600955?pwd=eWFqZmc1S1dLQXdrejVvVDIyWTlqZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/82420306980?pwd=NnU3bUhBelRKN3BZbGdnRjV2NHRVdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td>Kopis Mobile</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/81217087657?pwd=WUlPZmdtdGM0SmZVOFNCUGx4Z0p4Zz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/81196289630?pwd=UDRsUlBzSTdYZVF1bjVpSzBWTTVJdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/85965144019?pwd=T1kvWEpkMkMrc1U0aTdkRjNLYloxQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td>Mississippi Coding Academies</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/83905073997?pwd=bUlaTEQrLzJtUkFKeGZkdGtDak91dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/81474144270?pwd=NlFUVGdLS0RKK3YxcnczVnY2dG9YQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/81203623171?pwd=QjQzdzIraENzMXZUVCtFNUswbnFrUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td>The Bean Path</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/89834588289?pwd=OVM4WXZhNmVZc1hNZ0dWMjhLbnVyQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:30pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/83149420851?pwd=QUJ3Qlo4TERUbGxCaTVmVTlVQ0M0QT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/81821206096?pwd=MWNpOE5YK0g1WXpaelB4N1lrK1hWdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+        </tbody>
+      </table>
+    )
+  }
+  if ( day === "sponsors-two") {
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Sponsor</th>
+            <th>Time</th>
+            <th>Zoom Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AWS</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/87170189324?pwd=WndKQjVPMkZuaWhNQTFyazNYMHAyZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/84219034033?pwd=Vy9wOGMrWTRnZGlBSDN0V3p4VHNFQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>4:30pm - 5:30pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/84052308778?pwd=dCtCb0JBVTFFcGlMZVZ0R3R4enNhUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td>Cloudinary</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/83249845460?pwd=VjRtVmkxcnpnNjRCTmVnRU1xL3hNQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/84702439436?pwd=MU55TkJZdnlmRTZQd1pnWkFwUTc5QT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td>Kopis Mobile</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/87456051914?pwd=azh1VGxIU3F5UGgvNXZDWHF0UXIrQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/83379666712?pwd=TnJ0cDJOL1B3MkN3OE5LVTlCWFVZZz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>4:30pm - 5:30pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/85027854966?pwd=Vk1UT0pzQ0h5bWdjZ1dMdTBVeHp1dz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td>Mississippi Coding Academies</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/81256792983?pwd=OHBLVmpXbWpuQ3pPb0Nvc1Z0QWxmQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/88609785623?pwd=a21reVJmVlV6RXB5OThHSExQYi9hUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>4:30pm - 5:30pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/82178550888?pwd=eld6dW9RVDVUeG9RRnBLbENqa0VaUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td>The Bean Path</td>
+            <td><time>9:00am - 9:30am (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/85703216883?pwd=anJPQmtDV0RISkJxUDhzd3FPQ1Uwdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>1:00pm - 2:00pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/87818373622?pwd=OTJTWHR4OEQrb1FCSFU4TEQxeTdMUT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><time>4:30pm - 5:30pm (GMT -5:00)</time></td>
+            <td><a href="https://us02web.zoom.us/j/87597173815?pwd=S0lpZ2VwUlpGcFVreGJoSTNkSTNRdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+        </tbody>
+      </table>
+    )
+  }
+  if ( day === "one" ) {
     return (
       <table>
         <thead>
           <tr>
             <th>Time</th>
             <th>Event</th>
-            <th>Instructor</th>
-            <th>Location</th>
+            <th>Speaker</th>
+            <th>Zoom Link</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><time>8:30am</time></td>
-            <td>Arrivals, set up</td>
+            <td><time>3:30pm</time></td>
+            <td>Adventures of Machine Learning in JavaScript</td>
+            <td>Gant Laborde</td>
+            <td><a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>4:00pm</time></td>
+            <td>Break</td>
             <td></td>
-            <td>3rd Floor</td>
+            <td><a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
-            <td><time>9:00am</time></td>
-            <td>Get in the Fast Lane: Measuring Web Performance</td>
-            <td>Sia Karamalegos</td>
-            <td>3rd Floor - Room 214A</td>
+            <td><time>4:15pm</time></td>
+            <td>Static Sites and Serverless Functions - A Dynamic Combination</td>
+            <td>James Quick</td>
+            <td><a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
           <tr>
-            <td><time>9:00am</time></td>
-            <td>Zero Dependency Components: Introduction to Web Components</td>
-            <td>Nate Clark</td>
-            <td>3rd Floor - Room 213</td>
+            <td><time>4:45pm</time></td>
+            <td>I Can't See: Low Vision A11y & Users</td>
+            <td>Chris DeMars</td>
+            <td><a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>5:15pm</time></td>
+            <td>Day 1 - Closing Remarks, Start Q&A's</td>
+            <td></td>
+            <td><a href="https://us02web.zoom.us/j/86916890389?pwd=L1YrS0xwTGh2ZmphZkxYbjUxTGpodz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
           </tr>
         </tbody>
       </table>
     )
   }
-  return (
-    <table>
-      <thead>
+  if ( day === "two"  ) {
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Speaker</th>
+            <th>Zoom Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><time>9:00am</time></td>
+            <td>Stream Starts</td>
+            <td></td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>9:15am</time></td>
+            <td>Welcome & Announcements</td>
+            <td>Emcee</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>9:30am</time></td>
+            <td>Which Database? How to Choose the Best Place for your JSON Documents</td>
+            <td>Suphatra Rufo</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>10:00am</time></td>
+            <td>Thar Be Dragons: Rebuilding Native UIs on the Web</td>
+            <td>Chance Strickland</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>10:30am</time></td>
+            <td>Svelte and the Great Space Elevator</td>
+            <td>Shawn Wang</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>11:00am</time></td>
+            <td>Break</td>
+            <td></td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>11:15am</time></td>
+            <td>Progressive Enhancement in React</td>
+            <td>Kayla Sween</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>11:45am</time></td>
+            <td>Building a Full Stack CMS for the Modern Age</td>
+            <td>Nader Dabit</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>12:15pm</time></td>
+            <td>Break, Start Q&A's</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><time>1:00pm</time></td>
+            <td>Lunch (with Virtual Lunch Tables)</td>
+            <td></td>
+            <td><a href="https://us02web.zoom.us/j/82171079420?pwd=MzVTZTJJUi9MamZQVk5jUGc3dEdQdz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>2:00pm</time></td>
+            <td>Handling Data with React Query</td>
+            <td>Domitrius Clark</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>2:30pm</time></td>
+            <td>Canvas: The Final Escape Hatch</td>
+            <td>Ken Wheeler</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>3:00pm</time></td>
+            <td>How to Supercharge Teams with Carefully Crafted Conventions</td>
+            <td>Chris Ball</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>3:30pm</time></td>
+            <td>Break</td>
+            <td></td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>3:45pm</time></td>
+            <td>Chasing Whales of the Command Line: The What, How, and Why of Containers <span role="img" aria-label="Whale emoji">🐳</span></td>
+            <td>Brian Holt</td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+          <tr>
+            <td><time>4:15pm</time></td>
+            <td>Day 2 — Closing Remarks, Giveaways</td>
+            <td></td>
+            <td><a href="https://us02web.zoom.us/j/82810507172?pwd=NGZNYUJwOHlqd2xWWGRVRnl6Sk9Odz09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
+          </tr>
+        </tbody>
+      </table>
+    )
+  }
+  if ( day === "qa-one") {
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Zoom Link</th>
+          </tr>
+        </thead>
+        <tbody>
         <tr>
-          <th>Time</th>
-          <th>Event</th>
-          <th>Speaker</th>
-          <th>Location</th>
+          <td><time>5:30pm - 6:00pm (GMT -5:00)</time></td>
+          <td><a href="https://us02web.zoom.us/j/83811560172?pwd=ZTJqa3ppRG43L05KdUIxQkJTbUtGQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
-      </thead>
-      <tbody>
+        </tbody>
+      </table>
+    )
+  }
+  if ( day === "qa-two") {
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Zoom Link</th>
+          </tr>
+        </thead>
+        <tbody>
         <tr>
-          <td><time>7:30am - 10:00am</time></td>
-          <td>Registration</td>
-          <td></td>
-          <td>3rd Floor Corridor</td>
+          <td><time>12:15pm - 1:00pm (GMT -5:00)</time></td>
+          <td><a href="https://us02web.zoom.us/j/86589495464?pwd=QklhaGhvaUw4MG83TnhuSTMrMThCQT09" target="_blank" rel="noopener noreferrer">Zoom Link</a></td>
         </tr>
-        <tr>
-          <td><time>9:00am</time></td>
-          <td>Empower Through Web Development</td>
-          <td>Blake Watson</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>9:30am</time></td>
-          <td>Master the JavaScript Interview</td>
-          <td>Tyler Clark</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>9:55am</time></td>
-          <td>Renderless Components with Hooks</td>
-          <td>Ken Wheeler</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>10:25am</time></td>
-          <td>Break</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>10:35am</time></td>
-          <td>The Future of Front-End Performance</td>
-          <td>Sia Karamalegos</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>11:05am</time></td>
-          <td>The WebAssembly Revolution Has Begun</td>
-          <td>Jay Phelps</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>11:35am</time></td>
-          <td>Using JS to Bridge the Tech and Culture Gap</td>
-          <td>Michael Liendo</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>12:00pm</time></td>
-          <td>Transition to Lunch</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>12:00pm - 1:40pm</time></td>
-          <td>Lunch</td>
-          <td></td>
-          <td>Rooms 301-304</td>
-        </tr>
-        <tr>
-          <td><time>12:20pm</time></td>
-          <td>Overview: Mississippi Coding Academies</td>
-          <td>Bryce Mullican</td>
-          <td>Lunch Stage - Rooms 301-304</td>
-        </tr>
-        <tr>
-          <td><time>12:30pm</time></td>
-          <td>Join the Revolution</td>
-          <td>Gant Laborde</td>
-          <td>Lunch Stage - Rooms 301-304</td>
-        </tr>
-        <tr>
-          <td><time>1:30pm</time></td>
-          <td>Break</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>1:40pm</time></td>
-          <td>JavaScript: who, what, where, why and next</td>
-          <td>Laurie Voss</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>2:10pm</time></td>
-          <td>Dissecting the fluff from the buff of TDD, Twitter Driven Development</td>
-          <td>Justin Samuels</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>2:35pm</time></td>
-          <td>How to Avoid SUX (Some User Experience)</td>
-          <td>Kayla Sween</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>3:00pm</time></td>
-          <td>Break</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>3:10pm</time></td>
-          <td>Full Stack Development in the Era of Serverless Computing</td>
-          <td>Nader Dabit</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>3:40pm</time></td>
-          <td>The Future of JavaScript Apps is Gatsby.js</td>
-          <td>Joe Previte</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>4:10pm</time></td>
-          <td>Break</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><time>4:20pm</time></td>
-          <td>Buliding the Next Generation of Mobile Apps Using Draftbit</td>
-          <td>Peter Piekarczyk</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>4:45pm</time></td>
-          <td>So Many Hats: Security for Web Developers</td>
-          <td>Vince Falconi</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>5:10pm</time></td>
-          <td>Writing Code Saved My Life</td>
-          <td>Kurt Kemple</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>5:40pm</time></td>
-          <td>Door Prizes / Announcements / Dismissal</td>
-          <td>J.C. Hiatt / Kenneth LaFrance</td>
-          <td>Main Stage - Theater</td>
-        </tr>
-        <tr>
-          <td><time>8:30pm</time></td>
-          <td>After Party - Open Invite!</td>
-          <td></td>
-          <td><a href="https://www.google.com/maps/place/Fondren+Public/@32.3335561,-90.1775031,17z/data=!3m1!4b1!4m5!3m4!1s0x862832e9d6869733:0xc8ea3c87956e4dda!8m2!3d32.3335516!4d-90.1753144">Fondren Public</a></td>
-        </tr>
-      </tbody>
-    </table>
-  )
+        </tbody>
+      </table>
+    )
+  }
+  return null;
 }

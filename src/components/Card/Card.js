@@ -1,4 +1,3 @@
-import React from "react";
 import { Card as BassCard } from "rebass";
 
 import styled from "styled-components";
