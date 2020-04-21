@@ -11,14 +11,14 @@ const Image = styled.img`
 `;
 
 function MainBanner({ children }) {
-  return <Flex flexDirection={["column", "row-reverse"]} my={[48, 0]} alignItems="center">
-      <Box width={[1, 1 / 2]} alignSelf={["flex-start", "center"]} justifyContent={["flex-start", "center"]} px={30}>
+  return <Flex flexDirection={["column-reverse"]} my={[48, 0]} alignItems="center">
+      <Box width={[1, 1 / 2]} alignSelf={["center"]} justifyContent={["center"]} px={30}>
         <Flex justifyContent="center" flexDirection="column">
-          <Heading size={1} color="light" my={0} fontSize={[5, 6]} textAlign={["center", "left"]}>
-            MagnoliaJS Conference
+          <Heading size={1} color="light" my={0} fontSize={[5, 6]} textAlign={["center"]}>
+            See you next year!
           </Heading>
-          <Text color="highlight" my={30} textAlign={["center", "left"]}>
-            FULLY REMOTE<br />April 15-17, 2020
+          <Text color="highlight" my={10} textAlign={["center"]}>
+            Jackson, Mississippi
           </Text>
 
           {children}
